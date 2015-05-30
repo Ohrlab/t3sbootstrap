@@ -1,0 +1,63 @@
+{namespace t3sbs=T3SBS\T3sbootstrap\ViewHelpers}
+
+<div class="media">
+	<f:if condition="{mediaPosition} == 1">
+		<f:else>
+			<div class="media-body">
+				<f:format.raw>{header}</f:format.raw>
+				<f:format.html>{data.bodytext}</f:format.html>
+			</div>
+		</f:else>
+	</f:if>	
+	<t3sbs:fal uid="{data.uid}" as="images">
+		<f:if condition="{data.image_zoom}">
+			<f:then>			
+				<div class="{f:if(condition: '{mediaPosition} == 1', then: 'media-left ', else: 'media-right ')} {f:if(condition: mediaAlignment, then: mediaAlignment)}">
+					<a href="{f:uri.image(src:images.0.publicUrl)}" class="gallery">
+						<f:render section="Image" arguments="{_all}" />
+					</a>
+				</div>				
+			</f:then>
+			<f:else>
+				<f:if condition="{images.0.link}">
+					<f:then>
+						<div class="{f:if(condition: '{mediaPosition} == 1', then: 'media-left ', else: 'media-right ')} {f:if(condition: mediaAlignment, then: mediaAlignment)}">
+							<f:link.page pageUid="{images.0.link}">
+								<f:render section="Image" arguments="{_all}" />
+							</f:link.page>
+						</div>
+					</f:then>
+					<f:else>
+						<div class="{f:if(condition: '{mediaPosition} == 1', then: 'media-left ', else: 'media-right ')} {f:if(condition: mediaAlignment, then: mediaAlignment)}">
+							<f:render section="Image" arguments="{_all}" />
+						</div>
+					</f:else>
+				</f:if>
+			</f:else>
+		</f:if>
+	</t3sbs:fal>
+	<f:if condition="{mediaPosition} == 1">
+		<f:then>
+			<div class="media-body">
+				<f:format.raw>{header}</f:format.raw>
+				<f:format.html>{data.bodytext}</f:format.html>
+			</div>
+		</f:then>
+	</f:if>	
+</div>
+
+
+<f:section name="Image">
+    <f:if condition="{lazyload}">
+		<f:then>
+			<f:image src="EXT:t3sbootstrap/Resources/Public/Images/Placeholder.png" class="img-responsive mediaobject {f:if(condition: data.tx_t3sbootstrap_imagestyle, then: data.tx_t3sbootstrap_imagestyle)}" title="{images.0.title}"
+			alt="{images.0.alternative}" width="{data.imagewidth}" height="{data.imageheight}"
+			additionalAttributes="{data-original: '{f:uri.image(src: \'{images.0.uid}\', treatIdAsReference:\'1\', width: \'{data.imagewidth}c-0\',
+			height: \'{data.imageheight}c-0\')}'}" />
+		</f:then>
+		<f:else>
+			<f:image src="{images.0.uid}" treatIdAsReference="1" class="img-responsive mediaobject {f:if(condition: data.tx_t3sbootstrap_imagestyle, then: data.tx_t3sbootstrap_imagestyle)}" title="{images.0.title}"
+			alt="{images.0.alternative}" width="{data.imagewidth}c-0" height="{data.imageheight}c-0" />
+		</f:else>
+    </f:if>
+</f:section>

@@ -1,0 +1,16 @@
+#-------------------------------------------------------------------------------
+#	Plugin Constants
+#-------------------------------------------------------------------------------
+
+plugin.tx_t3sbootstrap {
+    view {
+#        # cat=plugin.tx_t3sbootstrap/file; type=string; label=Path to template root (FE)
+        templateRootPath = EXT:t3sbootstrap/Resources/Private/Templates/
+        # cat=plugin.tx_t3sbootstrap/file; type=string; label=Path to template partials (FE): partialRootPaths with hight array key - you can override a single file! All important templates are included here.
+        partialRootPath = EXT:t3sbootstrap/Resources/Private/Partials/
+#        # cat=plugin.tx_t3sbootstrap/file; type=string; label=Path to template layouts (FE)
+        layoutRootPath = EXT:t3sbootstrap/Resources/Private/Layouts/
+    }
+}
+
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:t3sbootstrap/Resources/Private/TypoScript/bs-constants.ts">

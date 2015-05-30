@@ -1,0 +1,13 @@
+<div class="panel panel-{data.tx_t3sbootstrap_panel_state}">
+	<div class="panel-heading">
+		<f:if condition="{data.subheader}">
+			<f:then>
+				<h3 class="media-heading"><f:format.raw>{headerIcon}</f:format.raw> {data.header} <small>{data.subheader}</small></h3>
+			</f:then>
+			<f:else>
+				<h3 class="media-heading"><f:format.raw>{headerIcon}</f:format.raw> {data.header}</h3>
+			</f:else>
+		</f:if>
+	</div>
+	<div class="panel-body"><f:format.html>{data.bodytext}</f:format.html></div>
+</div>

@@ -1,0 +1,7 @@
+#-------------------------------------------------------------------------------
+#	Plugin Setup using with themes
+#-------------------------------------------------------------------------------
+
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:t3sbootstrap/Resources/Private/TypoScript/bs-setup.ts">
+
+page.100 >

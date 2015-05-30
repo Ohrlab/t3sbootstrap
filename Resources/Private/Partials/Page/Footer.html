@@ -1,0 +1,16 @@
+<f:if condition="{settings.styles.navbar.footer.fullwidth}">
+	<f:then>
+		<footer id="page-footer" class="navbar navbar-{f:if(condition: '{settings.styles.navbar.style.inverse}', then: 'inverse', else: 'default')} {f:if(condition: '{settings.styles.footer.sticky}', then: 'navbar-fixed-bottom')}" style="margin-bottom:0;" >
+			<div class="{f:if(condition: '{settings.styles.container-fluid}',then: 'container-fluid', else: 'container')}">
+				<f:cObject typoscriptObjectPath="lib.content.footer" />
+			</div>
+		</footer>
+	</f:then>
+	<f:else>
+	<div class="{f:if(condition: '{settings.styles.container-fluid}',then: 'container-fluid', else: 'container')}">
+		<footer id="page-footer" class="navbar navbar-{f:if(condition: '{settings.styles.navbar.style.inverse}', then: 'inverse', else: 'default')} {f:if(condition: '{settings.styles.footer.sticky}', then: 'navbar-fixed-bottom')}" >
+			<f:cObject typoscriptObjectPath="lib.content.footer" />
+		</footer>
+	</div>
+	</f:else>
+</f:if>

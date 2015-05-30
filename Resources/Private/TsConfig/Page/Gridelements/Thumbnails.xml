@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3DataStructure>
+  <meta type="array">
+		<langDisable>1</langDisable>
+	</meta>
+	<sheets>
+		<general>
+			<ROOT type="array">
+				<TCEforms>
+					<sheetTitle>LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:flexforms.general</sheetTitle>
+				</TCEforms>
+				<el type="array">
+					<columns type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:flexforms.columns</label>
+							<config type="array">
+								<type>select</type>
+								<items type="array">
+									<numIndex index="0" type="array"><numIndex index="0">2</numIndex><numIndex index="1">6</numIndex></numIndex>
+									<numIndex index="1" type="array"><numIndex index="0">3</numIndex><numIndex index="1">4</numIndex></numIndex>
+									<numIndex index="2" type="array"><numIndex index="0">4</numIndex><numIndex index="1">3</numIndex></numIndex>
+								</items>
+								<default>3</default>
+							</config>
+						</TCEforms>
+					</columns>
+
+					<width type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:flexforms.maxImgWidth</label>
+							<config>
+								<type>input</type>
+								<size>4</size>
+								<max>4</max>
+								<default>300</default>
+								<eval>int,nospace</eval>
+								<checkbox>0</checkbox>
+							</config>
+						</TCEforms>
+					</width>
+					<height type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:flexforms.maxImgHeight</label>
+							<config>
+								<type>input</type>
+								<size>4</size>
+								<max>4</max>
+								<default>200</default>
+								<eval>int,nospace</eval>
+								<checkbox>0</checkbox>
+							</config>
+						</TCEforms>
+					</height>
+					<equalHeight type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:flexforms.equal_height</label>
+							<config>
+								<type>check</type>
+							</config>
+						</TCEforms>
+					</equalHeight>
+				</el>
+			</ROOT>
+		</general>
+	</sheets>
+</T3DataStructure>

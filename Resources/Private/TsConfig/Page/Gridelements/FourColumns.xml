@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3DataStructure>
+  <meta type="array">
+		<langDisable>1</langDisable>
+	</meta>
+	<sheets>
+		<md>
+			<ROOT type="array">
+				<TCEforms>
+					<sheetTitle>Col-md-* options (# of columns 12)</sheetTitle>
+				</TCEforms>
+				<el type="array">
+
+					<md_one type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:gridelement.anyColumns.colPos.0</label>
+							<config>
+								<type>input</type>
+								<size>4</size>
+								<max>2</max>
+								<default>3</default>
+								<eval>int,nospace</eval>
+								<checkbox>0</checkbox>
+							</config>
+						</TCEforms>
+					</md_one>
+					<md_two type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:gridelement.anyColumns.colPos.1</label>
+							<config>
+								<type>input</type>
+								<size>4</size>
+								<max>2</max>
+								<default>3</default>
+								<eval>int,nospace</eval>
+								<checkbox>0</checkbox>
+							</config>
+						</TCEforms>
+					</md_two>
+					<md_three type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:gridelement.anyColumns.colPos.2</label>
+							<config>
+								<type>input</type>
+								<size>4</size>
+								<max>2</max>
+								<default>3</default>
+								<eval>int,nospace</eval>
+								<checkbox>0</checkbox>
+							</config>
+						</TCEforms>
+					</md_three>
+					<md_four type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:gridelement.anyColumns.colPos.3</label>
+							<config>
+								<type>input</type>
+								<size>4</size>
+								<max>2</max>
+								<default>3</default>
+								<eval>int,nospace</eval>
+								<checkbox>0</checkbox>
+							</config>
+						</TCEforms>
+					</md_four>
+
+				</el>
+			</ROOT>
+		</md>
+		<sm>
+			<ROOT type="array">
+				<TCEforms>
+					<sheetTitle>Col-sm-* options</sheetTitle>
+				</TCEforms>
+				<el type="array">
+
+					<sm_one type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:gridelement.anyColumns.colPos.0</label>
+							<config>
+								<type>input</type>
+								<size>4</size>
+								<max>2</max>
+								<default>6</default>
+								<eval>int,nospace</eval>
+								<checkbox>0</checkbox>
+							</config>
+						</TCEforms>
+					</sm_one>
+					<sm_two type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:gridelement.anyColumns.colPos.1</label>
+							<config>
+								<type>input</type>
+								<size>4</size>
+								<max>2</max>
+								<default>6</default>
+								<eval>int,nospace</eval>
+								<checkbox>0</checkbox>
+							</config>
+						</TCEforms>
+					</sm_two>
+					<sm_three type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:gridelement.anyColumns.colPos.2</label>
+							<config>
+								<type>input</type>
+								<size>4</size>
+								<max>2</max>
+								<default>6</default>
+								<eval>int,nospace</eval>
+								<checkbox>0</checkbox>
+							</config>
+						</TCEforms>
+					</sm_three>
+					<sm_four type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:gridelement.anyColumns.colPos.3</label>
+							<config>
+								<type>input</type>
+								<size>4</size>
+								<max>2</max>
+								<default>6</default>
+								<eval>int,nospace</eval>
+								<checkbox>0</checkbox>
+							</config>
+						</TCEforms>
+					</sm_four>
+
+				</el>
+			</ROOT>
+		</sm>
+		<xs>
+			<ROOT type="array">
+				<TCEforms>
+					<sheetTitle>Col-xs-* options</sheetTitle>
+				</TCEforms>
+				<el type="array">
+
+					<xs_one type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:gridelement.anyColumns.colPos.0</label>
+							<config>
+								<type>input</type>
+								<size>4</size>
+								<max>2</max>
+								<default>12</default>
+								<eval>int,nospace</eval>
+								<checkbox>0</checkbox>
+							</config>
+						</TCEforms>
+					</xs_one>
+					<xs_two type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:gridelement.anyColumns.colPos.1</label>
+							<config>
+								<type>input</type>
+								<size>4</size>
+								<max>2</max>
+								<default>12</default>
+								<eval>int,nospace</eval>
+								<checkbox>0</checkbox>
+							</config>
+						</TCEforms>
+					</xs_two>
+					<xs_three type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:gridelement.anyColumns.colPos.2</label>
+							<config>
+								<type>input</type>
+								<size>4</size>
+								<max>2</max>
+								<default>12</default>
+								<eval>int,nospace</eval>
+								<checkbox>0</checkbox>
+							</config>
+						</TCEforms>
+					</xs_three>
+					<xs_four type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:gridelement.anyColumns.colPos.3</label>
+							<config>
+								<type>input</type>
+								<size>4</size>
+								<max>2</max>
+								<default>12</default>
+								<eval>int,nospace</eval>
+								<checkbox>0</checkbox>
+							</config>
+						</TCEforms>
+					</xs_four>
+
+				</el>
+			</ROOT>
+		</xs>
+
+	</sheets>
+</T3DataStructure>

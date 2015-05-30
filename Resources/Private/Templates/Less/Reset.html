@@ -1,0 +1,70 @@
+<f:layout name="Backend" />
+<f:section name="Main">
+
+{namespace t3sbs=T3SBS\T3sbootstrap\ViewHelpers}
+<h1 class="be_header">Customize Bootstrap's Less variables <small>(v3.3.4)</small></h1>
+<div role="alert" class="alert alert-warning alert-dismissible">
+  <strong>Heads up!</strong> The default value for <code>@brand-primary</code> has changed in the latest release to improve contrast and accessibility.
+</div>
+<f:flashMessages renderMode="div" />
+<div class="clearfix" style="display: inline-block;"></div>
+<div class="row">
+	<f:form action="reset" enctype="multipart/form-data" style="margin-bottom: 0">
+		<div class="col-xs-4">
+			<f:form.submit class="btn btn-primary btn-block" name="startWith" value="Start with a free Bootswatch theme ..." />
+		</div>
+		<div class="col-xs-4">
+			<f:form.select class="form-control" name="bootswatch" options="{bootswatch}" prependOptionLabel="please select ..." />
+		</div>
+	</f:form>
+	<div class="col-xs-4">
+		<a class="btn btn-info btn-block" href="https://bootswatch.com/" target="_blank" role="button">bootswatch.com</a>
+	</div>
+</div>
+<div class="clearfix" style="display: inline-block;"></div>
+<div class="row">
+	<f:if condition="{copyExist}">
+		<f:then>
+			<div class="col-xs-4">
+				<f:form action="copy" enctype="multipart/form-data">
+					<f:form.submit class="btn btn-warning btn-block" onclick="return confirm('Are you sure - saved file is overwritten!')" name="copy" value="Save to fileadmin/BootstrapLessConfig/" />
+				</f:form>
+			</div>
+			<div class="col-xs-4">
+				<f:form action="reset" enctype="multipart/form-data">
+					<f:form.submit class="btn btn-primary btn-block" name="myReset" value="Reset to fileadmin/BootstrapLessConfig/" />
+				</f:form>
+			</div>
+			<div class="col-xs-4">
+				<f:form action="reset" enctype="multipart/form-data">
+					<f:form.submit class="btn btn-primary btn-block" name="reset" value="Reset to defaults" />
+				</f:form>
+			</div>
+		</f:then>
+		<f:else>
+			<div class="col-xs-4">
+				<f:form action="copy" enctype="multipart/form-data">
+					<f:form.submit class="btn btn-warning btn-block" name="copy" value="Save to fileadmin/BootstrapLessConfig/" />
+				</f:form>
+			</div>
+		</f:else>
+	</f:if>
+</div>
+<div class="clearfix"></div>
+<f:form action="create" enctype="multipart/form-data" arguments="{bwatch : args.bootswatch}">
+	<div id="less-variables-section" class="bs-docs-section">
+		<h1 class="page-header" id="less-variables">Less variables</h1>
+		<p class="lead">Customize Less variables to define colors, sizes and more inside your custom CSS stylesheets.</p>
+		<t3sbs:be.less args="{args}" />
+	</div>
+	<div class="clearfix" style="display: inline-block;"></div>
+	<p class="lead" style="margin-top:10px;">Hooray! Your custom version of Bootstrap is now ready to be compiled. Just click the button below to finish the process.</p>
+	<div class="bs-customize-download">
+      <f:form.submit id="btn-compile" class="btn btn-block btn-lg btn-outline" name="mySubmit" value="Compile your very own Bootstrap"><button>Compile your very own Bootstrap</button></f:form.submit>
+    </div>
+</f:form>
+<div class="clearfix" style="display: inline-block;"></div>
+<p><small>Bootstrap v3.3.4 (<a target="_blank" href="http://getbootstrap.com/" data-original-title="" title="">getbootstrap.com</a>) &copy; 2011-2015 Twitter, Inc.<br />
+Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)</small></p>
+
+</f:section>

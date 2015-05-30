@@ -1,0 +1,26 @@
+<f:if condition="{settings.styles.navbar.onTop}">
+	<f:then>
+		<f:if condition="{settings.navigation.navbar.enable}">
+			<f:render partial="NavBar/_main" arguments="{_all}" />
+		</f:if>
+		<f:cObject typoscriptObjectPath="lib.content.jumbotron" />
+
+	</f:then>
+	<f:else>
+		<f:cObject typoscriptObjectPath="lib.content.jumbotron" />
+
+		<f:if condition="{settings.navigation.navbar.enable}">
+			<div class="container">
+				<f:render partial="NavBar/NavBarDefault" arguments="{_all}" />
+			</div>
+		</f:if>
+	</f:else>
+</f:if>
+
+<div class="{f:if(condition: '{settings.styles.container-fluid}',then: 'container-fluid', else: 'container')} page-container">
+	<div class="row content-row">
+		<section class="col-md-12 main-content">
+			<f:cObject typoscriptObjectPath="lib.content.main" />
+		</section>
+	</div>
+</div>

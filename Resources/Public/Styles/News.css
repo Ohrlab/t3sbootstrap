@@ -1,0 +1,92 @@
+/* Example Style for tx_news */
+
+.mediaelement-video {
+    height: 0;
+    margin: 20px 0;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    position: relative;
+}
+.mediaelement-video iframe {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.mediaelement-image {
+    margin-bottom: 10px;
+}
+
+
+.media.article {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.news .clear {
+    clear: both;
+}
+.news .nav ul {
+    display: inline;
+    float: left;
+    margin: 0;
+}
+.news .article {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+
+.facebook .list-group-item {
+    border: medium none;
+}
+.news .article h3 {
+    margin-bottom: 0;
+}
+.news .footer {
+    border-top: 1px solid #EEEEEE;
+    clear: both;
+    color: #888888;
+    margin-top: 15px;
+    padding: 10px 0 0;
+}
+.news .footer span {
+    border-right: 1px solid #DDDDDD;
+    display: inline-block;
+    margin-right: 8px;
+    padding-right: 8px;
+}
+.news .footer span *:last-child {
+    border-right: 0 none;
+}
+.news .footer .news-category a {
+    text-transform: uppercase;
+}
+.news .no-news-found {
+    color: #DB0202;
+    font-style: italic;
+}
+.list-teaserbox {
+    background-color: #CCCCCC;
+    padding-bottom: 15px;
+}
+.news-single .footer {
+    border-bottom: 0 none;
+    border-top: 1px solid #EEEEEE;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    padding: 10px 0 0;
+}
+.news-single .teaser-text {
+    font-weight: bold;
+}
+.news-text-wrap {
+    margin-bottom: 20px;
+}
+.news-img-caption {
+    color: #888888;
+}
+.news-img-wrap a {
+    margin-bottom: 10px;
+}

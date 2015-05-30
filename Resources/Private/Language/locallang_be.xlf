@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-01-05T16:59:16Z" product-name="t3sbootstrap">
+		<header/>
+		<body>
+
+			<trans-unit id="backend_layout.bootstrap">
+				<source>Bootstrap</source>
+			</trans-unit>
+
+			<trans-unit id="backend_layout.jumbotron">
+				<source>Jumbotron</source>
+			</trans-unit>
+			<trans-unit id="backend_layout.content">
+				<source>Content</source>
+			</trans-unit>
+			<trans-unit id="backend_layout.sidebar">
+				<source>Sidebar</source>
+			</trans-unit>
+			<trans-unit id="backend_layout.sidebar-left">
+				<source>Left Sidebar</source>
+			</trans-unit>
+			<trans-unit id="backend_layout.sidebar-right">
+				<source>Right Sidebar</source>
+			</trans-unit>
+			<trans-unit id="backend_layout.slider">
+				<source>Slider</source>
+			</trans-unit>
+
+			<trans-unit id="backend_layout.leftFooter">
+				<source>Footer left</source>
+			</trans-unit>
+			<trans-unit id="backend_layout.footer">
+				<source>Footer</source>
+			</trans-unit>
+			<trans-unit id="backend_layout.rightFooter">
+				<source>Footer right</source>
+			</trans-unit>
+
+			<trans-unit id="backend_layout.oneCol">
+				<source>1 Column</source>
+			</trans-unit>
+			<trans-unit id="backend_layout.twoCol_9-3">
+				<source>2 Columns (9-3)</source>
+			</trans-unit>
+			<trans-unit id="backend_layout.threeCol">
+				<source>3 Columns</source>
+			</trans-unit>
+			<trans-unit id="backend_layout.special-slider">
+				<source>Special Slider</source>
+			</trans-unit>
+			<trans-unit id="backend_layout.twoCol_3-9">
+				<source>2 Columns (3-9)</source>
+			</trans-unit>
+			<trans-unit id="backend_layout.oneCol_jumbotron">
+				<source>1 Column Jumbotron</source>
+			</trans-unit>
+			<trans-unit id="backend_layout.twoCol_9-3_jumbotron">
+				<source>2 Columns Jumbotron (9-3)</source>
+			</trans-unit>
+			<trans-unit id="backend_layout.threeCol_jumbotron">
+				<source>3 Columns Jumbotron</source>
+			</trans-unit>
+			<trans-unit id="backend_layout.twoCol_3-9_jumbotron">
+				<source>2 Columns Jumbotron (3-9)</source>
+			</trans-unit>
+
+			<trans-unit id="backend_layout.otc">
+				<source>Optional top content</source>
+			</trans-unit>
+			<trans-unit id="backend_layout.obc">
+				<source>Optional bottom content</source>
+			</trans-unit>
+
+
+			<!-- Flexforms in gridelements -->
+			<trans-unit id="flexforms.settings">
+				<source>Settings</source>
+			</trans-unit>
+			<trans-unit id="flexforms.appearance">
+				<source>Appearance</source>
+			</trans-unit>
+			<trans-unit id="flexforms.effect">
+				<source>Fade effect</source>
+			</trans-unit>
+			<trans-unit id="flexforms.columns">
+				<source>Columns:</source>
+			</trans-unit>
+			<trans-unit id="flexforms.active">
+				<source>active</source>
+			</trans-unit>
+			<trans-unit id="flexforms.default">
+				<source>default</source>
+			</trans-unit>
+			<trans-unit id="flexforms.primary">
+				<source>primary</source>
+			</trans-unit>
+			<trans-unit id="flexforms.success">
+				<source>success</source>
+			</trans-unit>
+			<trans-unit id="flexforms.info">
+				<source>info</source>
+			</trans-unit>
+			<trans-unit id="flexforms.warning">
+				<source>warning</source>
+			</trans-unit>
+			<trans-unit id="flexforms.danger">
+				<source>danger</source>
+			</trans-unit>
+			<trans-unit id="flexforms.general">
+				<source>General</source>
+			</trans-unit>
+			<trans-unit id="flexforms.maxImgWidth">
+				<source>Max. image width:</source>
+			</trans-unit>
+			<trans-unit id="flexforms.interval">
+				<source>Interval:</source>
+			</trans-unit>
+			<trans-unit id="flexforms.">
+				<source>Max. image height:</source>
+			</trans-unit>
+			<trans-unit id="flexforms.none">
+				<source>None</source>
+			</trans-unit>
+			<trans-unit id="flexforms.fade">
+				<source>fade</source>
+			</trans-unit>
+			<trans-unit id="flexforms.equal_height">
+				<source>Equal Height for each row</source>
+			</trans-unit>
+			<trans-unit id="flexforms.large">
+				<source>Large</source>
+			</trans-unit>
+			<trans-unit id="flexforms.small">
+				<source>Small</source>
+			</trans-unit>
+			<trans-unit id="flexforms.animation">
+				<source>Animation</source>
+			</trans-unit>
+			<trans-unit id="flexforms.modalsize">
+				<source>Modal size</source>
+			</trans-unit>
+			<trans-unit id="flexforms.usebutton">
+				<source>Button</source>
+			</trans-unit>
+			<trans-unit id="flexforms.buttonstyle">
+				<source>Button style</source>
+			</trans-unit>
+
+
+			<!-- Content element: Header Layout -->
+			<trans-unit id="tt_content.header_layout.ph1">
+			               <source>Bootstrap Page Header: H1</source>
+			</trans-unit>
+			<trans-unit id="tt_content.header_layout.ph2">
+			               <source>Bootstrap Page Header: H2</source>
+			</trans-unit>
+			<trans-unit id="tt_content.header_layout.2">
+			               <source>Header H2</source>
+			</trans-unit>
+			<trans-unit id="tt_content.header_layout.3">
+			               <source>Header H3</source>
+			</trans-unit>
+			<trans-unit id="tt_content.header_layout.4">
+			               <source>Header H4</source>
+			</trans-unit>
+			<trans-unit id="tt_content.header_layout.5">
+			               <source>Header H5</source>
+			</trans-unit>
+			<trans-unit id="tt_content.header_layout.6">
+			               <source>Header H6</source>
+			</trans-unit>
+
+
+			<!-- New Content Element Wizard -->
+
+			<trans-unit id="t3sbs_contentelements">
+				<source>T3S Bootstrap</source>
+			</trans-unit>
+			<trans-unit id="t3sbs_header.title">
+				<source>BS Header only</source>
+			</trans-unit>
+			<trans-unit id="t3sbs_header.description">
+				<source>Adds a header only.</source>
+			</trans-unit>
+			<trans-unit id="t3sbs_text.title">
+				<source>BS Text</source>
+			</trans-unit>
+			<trans-unit id="t3sbs_text.description">
+				<source>A regular text element with header and bodytext fields.</source>
+			</trans-unit>
+			<trans-unit id="t3sbs_textpic.title">
+				<source>BS Text &amp; Images</source>
+			</trans-unit>
+			<trans-unit id="t3sbs_textpic.description">
+				<source>Any number of images wrapped right around a regular text element.</source>
+			</trans-unit>
+			<trans-unit id="t3sbs_images.title">
+				<source>BS Images</source>
+			</trans-unit>
+			<trans-unit id="t3sbs_images.description">
+				<source>Any number of images aligned in columns and rows with a caption.</source>
+			</trans-unit>
+			<trans-unit id="t3sbs_bullets.title">
+				<source>BS Bullets</source>
+			</trans-unit>
+			<trans-unit id="t3sbs_bullets.description">
+				<source>A single bullet list.</source>
+			</trans-unit>
+			<trans-unit id="t3sbs_table.title">
+				<source>BS Table</source>
+			</trans-unit>
+			<trans-unit id="t3sbs_table.description">
+				<source>A simple table.</source>
+			</trans-unit>
+			<trans-unit id="t3sbs_menu.title">
+				<source>BS Menu</source>
+			</trans-unit>
+			<trans-unit id="t3sbs_menu.description">
+				<source>Creates a menu of pages, sitemap or other special menus.</source>
+			</trans-unit>
+			<trans-unit id="t3sbs_fluidtemplate.title">
+				<source>Fluidtemplate</source>
+			</trans-unit>
+			<trans-unit id="t3sbs_fluidtemplate.description">
+				<source>You can include your own Fluidtemplate here (path to the template e.g. fileadmin/template.html).</source>
+			</trans-unit>
+			<trans-unit id="t3sbs_tabs.title">
+				<source>BS Togglable tabs</source>
+			</trans-unit>
+			<trans-unit id="t3sbs_tabs.description">
+				<source>Add quick, dynamic tab functionality to transition through panes of local content.</source>
+			</trans-unit>
+			<trans-unit id="t3sbs_nonvisible_header">
+				<source>Header (not visible in the frontend):</source>
+			</trans-unit>
+			<trans-unit id="t3sbs_carousel.title">
+				<source>BS Carousel</source>
+			</trans-unit>
+			<trans-unit id="t3sbs_carousel.description">
+				<source>Use only with "Carousel Container" (Grid Element).</source>
+			</trans-unit>
+			<trans-unit id="t3sbs_thumbnails.title">
+				<source>BS Thumbnails </source>
+			</trans-unit>
+			<trans-unit id="t3sbs_thumbnails.description">
+				<source>Use only with "Thumbnails Container" (Grid Element).</source>
+			</trans-unit>
+			<trans-unit id="t3sbs_video.title">
+				<source>BS Video</source>
+			</trans-unit>
+			<trans-unit id="t3sbs_video.description">
+				<source>Responsive embeded HML5-Video-Player.</source>
+			</trans-unit>
+			<trans-unit id="t3sbs_panel.title">
+				<source>BS Panels</source>
+			</trans-unit>
+			<trans-unit id="t3sbs_panel.description">
+				<source>While not always necessary, sometimes you need to put your DOM in a box. For those situations, try the panel component.</source>
+			</trans-unit>
+			<trans-unit id="t3sbs_mediaobject.title">
+				<source>BS Media object</source>
+			</trans-unit>
+			<trans-unit id="t3sbs_mediaobject.description">
+				<source>The default media allow to float a media object (image) to the left or right of a content block.</source>
+			</trans-unit>
+
+
+
+			<!-- Flexform -->
+			<trans-unit id="flexform.source">
+				<source>Source</source>
+			</trans-unit>
+			<trans-unit id="flexform.source.MP4">
+				<source>MP4 Source</source>
+			</trans-unit>
+			<trans-unit id="flexform.source.WebM">
+				<source>WebM Source</source>
+			</trans-unit>
+			<trans-unit id="flexform.source.Ogg">
+				<source>Ogg Source</source>
+			</trans-unit>
+			<trans-unit id="flexform.ownsource">
+				<source>My video source</source>
+			</trans-unit>
+			<trans-unit id="flexform.previewImage">
+				<source>Preview Image</source>
+			</trans-unit>
+			<trans-unit id="flexform.aspectratio">
+				<source>Aspect ratio</source>
+			</trans-unit>
+			<trans-unit id="flexform.centerbutton">
+				<source>Center Button</source>
+			</trans-unit>
+			<trans-unit id="flexform.autoplay">
+				<source>Autoplay</source>
+			</trans-unit>
+			<trans-unit id="flexform.preload">
+				<source>Preload</source>
+			</trans-unit>
+			<trans-unit id="flexform.loop">
+				<source>Loop</source>
+			</trans-unit>
+
+
+<!--
+			<trans-unit id="bootstrap.thumbnail.title">
+				<source>Thumbnail</source>
+			</trans-unit>
+			<trans-unit id="bootstrap.thumbnail.description">
+				<source>Use only with "Thumbnails Container" (Grid Element).</source>
+			</trans-unit>
+			<trans-unit id="bootstrap.carousel.title">
+				<source>Carousel slide</source>
+			</trans-unit>
+			<trans-unit id="bootstrap.carousel.description">
+				<source>Use only with "Carousel Container" (Grid Element).</source>
+			</trans-unit>
+-->
+
+			<!-- Section -->
+			<trans-unit id="tt_content.section.hidden">
+				<source>Hidden</source>
+			</trans-unit>
+			<trans-unit id="tt_content.section.hidden-phone">
+				<source>Hidden on phones</source>
+			</trans-unit>
+			<trans-unit id="tt_content.section.visible-phone">
+				<source>Visible on phone</source>
+			</trans-unit>
+			<trans-unit id="tt_content.section.hidden-desktop">
+				<source>Hidden on desktops</source>
+			</trans-unit>
+			<trans-unit id="tt_content.section.visible-desktop">
+				<source>Visible on desktops</source>
+			</trans-unit>
+			<trans-unit id="tt_content.section.well">
+				<source>Well</source>
+			</trans-unit>
+			<trans-unit id="tt_content.section.well-lg">
+				<source>Well large</source>
+			</trans-unit>
+			<trans-unit id="tt_content.section.well-sm">
+				<source>Well small</source>
+			</trans-unit>
+
+			<trans-unit id="tt_content.section.alert-success">
+				<source>Alert success</source>
+			</trans-unit>
+			<trans-unit id="tt_content.section.alert-info">
+				<source>Alert info</source>
+			</trans-unit>
+			<trans-unit id="tt_content.section.alert-warning">
+				<source>Alert warning</source>
+			</trans-unit>
+			<trans-unit id="tt_content.section.alert-danger">
+				<source>Alert danger</source>
+			</trans-unit>
+
+			<trans-unit id="tt_content.section.callout-danger">
+				<source>Callout danger</source>
+			</trans-unit>
+			<trans-unit id="tt_content.section.callout-warning">
+				<source>Callout warning</source>
+			</trans-unit>
+			<trans-unit id="tt_content.section.callout-info">
+				<source>Callout info</source>
+			</trans-unit>
+
+			<trans-unit id="tt_content.menu_type.8">
+				<source>BOOTSTRAP: Sitemaps of selected pages</source>
+			</trans-unit>
+
+
+			<!-- Content element: Table -->
+			<trans-unit id="tt_content.table.acctables_tableclass">
+				<source>BOOTSTRAP: Additional CSS Class</source>
+			</trans-unit>
+			<trans-unit id="tablewidth">
+				<source>Tabelle element-style "width:auto"</source>
+			</trans-unit>
+			<trans-unit id="tablecolwidth">
+				<source>Columns wide in % per column (example:"20|30|25|25"):</source>
+			</trans-unit>
+			<trans-unit id="tablerowcontext">
+				<source>BOOTSTRAP: Context variants (active,success,warning,danger or info) per row (example:"success||danger|"): </source>
+			</trans-unit>
+			<trans-unit id="tableclasses.default">
+				<source>Basic example</source>
+			</trans-unit>
+			<trans-unit id="tableclasses.striped">
+				<source>Striped rows</source>
+			</trans-unit>
+			<trans-unit id="tableclasses.bordered">
+				<source>Bordered table</source>
+			</trans-unit>
+			<trans-unit id="tableclasses.hover">
+				<source>Hover rows</source>
+			</trans-unit>
+			<trans-unit id="tableclasses.condensed">
+				<source>Condensed table</source>
+			</trans-unit>
+
+
+			<!-- Gridelements -->
+			<trans-unit id="gridelement.anyColumns.colPos.0">
+				<source>Column 1</source>
+			</trans-unit>
+			<trans-unit id="gridelement.anyColumns.colPos.1">
+				<source>Column 2</source>
+			</trans-unit>
+			<trans-unit id="gridelement.anyColumns.colPos.2">
+				<source>Column 3</source>
+			</trans-unit>
+			<trans-unit id="gridelement.anyColumns.colPos.3">
+				<source>Column 4</source>
+			</trans-unit>
+			<trans-unit id="gridelement.twoColumns.title">
+				<source>2 Columns</source>
+			</trans-unit>
+			<trans-unit id="gridelement.twoColumns.description">
+				<source>Container with 2 columns</source>
+			</trans-unit>
+			<trans-unit id="gridelement.threeColumns.title">
+				<source>3 Columns</source>
+			</trans-unit>
+			<trans-unit id="gridelement.threeColumns.description">
+				<source>Container with 3 columns</source>
+			</trans-unit>
+
+			<trans-unit id="gridelement.fourColumns.title">
+				<source>4 Columns</source>
+			</trans-unit>
+			<trans-unit id="gridelement.fourColumns.description">
+				<source>Container with 4 columns</source>
+			</trans-unit>
+
+			<trans-unit id="gridelement.tabContainer.title">
+				<source>Tab Container</source>
+			</trans-unit>
+			<trans-unit id="gridelement.tabContainer.description">
+				<source>A container for several tabs (blue frame)</source>
+			</trans-unit>
+			<trans-unit id="gridelement.tabElement.title">
+				<source>Tab Element</source>
+			</trans-unit>
+			<trans-unit id="gridelement.tabElement.description">
+				<source>A Tab for a TabContainer (green frame)</source>
+			</trans-unit>
+			<trans-unit id="gridelement.collapsibleContainer.title">
+				<source>Collapsible Container</source>
+			</trans-unit>
+			<trans-unit id="gridelement.collapsibleContainer.description">
+				<source>A container for several collapsible elements (blue frame)</source>
+			</trans-unit>
+			<trans-unit id="gridelement.collapsibleElement.title">
+				<source>Collapsible Element</source>
+			</trans-unit>
+			<trans-unit id="gridelement.collapsibleElement.description">
+				<source>A collapsible element for a Collapsible Container (green frame)</source>
+			</trans-unit>
+			<trans-unit id="gridelement.thumbnailsContainer.title">
+				<source>Thumbnail Container</source>
+			</trans-unit>
+			<trans-unit id="gridelement.thumbnailsContainer.description">
+				<source>A container for several Thumbnails (CE:t3sbootstrap_thumbnail) (red frame)</source>
+			</trans-unit>
+			<trans-unit id="gridelement.modal.title">
+				<source>Modal Container</source>
+			</trans-unit>
+			<trans-unit id="gridelement.modal.description">
+				<source>A container for several content elements (green frame)</source>
+			</trans-unit>
+
+			<trans-unit id="gridelement.carouselContainer.title">
+				<source>Carousel Container</source>
+			</trans-unit>
+			<trans-unit id="gridelement.carouselContainer.description">
+				<source>A container for several Carousel slides (CE:t3sbootstrap_carousel) (red frame)</source>
+			</trans-unit>
+
+			<trans-unit id="gridelement.grayscaleSection.title">
+				<source>Grayscale Section Container</source>
+			</trans-unit>
+			<trans-unit id="gridelement.grayscaleSection.description">
+				<source>A container for several sections, use only with the grayscale theme backend layout (green frame)</source>
+			</trans-unit>
+
+
+
+		</body>
+	</file>
+</xliff>

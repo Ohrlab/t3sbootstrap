@@ -1,0 +1,26 @@
+<f:if condition="{be_layout} == 't3sbootstrap__4'">
+	<div class="navbar-wrapper">
+</f:if>
+
+<f:if condition="{settings.styles.navbar.onTop}">
+	<f:then>
+		<div class="{f:if(condition: '{settings.styles.container-fluid}', then: 'container-fluid', else: 'container')}">
+			<div class="row">
+				<nav role="navigation" class="navbar {f:if(condition: '{settings.styles.navbar.style.inverse}', then: 'navbar-inverse', else: 'navbar-default')}">
+					<f:render partial="NavBar/NavBarHeader" arguments="{_all}" />
+				</nav>
+			</div>
+		</div>
+	</f:then>
+	<f:else>
+		<div class="row">
+			<nav role="navigation" class="navbar {f:if(condition: '{settings.styles.navbar.style.inverse}', then: 'navbar-inverse', else: 'navbar-default')}">
+				<f:render partial="NavBar/NavBarHeader" arguments="{_all}" />
+			</nav>
+		</div>
+	</f:else>
+</f:if>
+
+<f:if condition="{be_layout} == 't3sbootstrap__4'">
+	</div>
+</f:if>

@@ -1,0 +1,78 @@
+<f:layout name="Default" />
+<f:section name="Main">
+
+	<f:if condition="{settings.optionalContent}">
+		<f:if condition="<f:cObject typoscriptObjectPath='lib.content.top' />">
+			<div class="{f:if(condition: '{settings.styles.container-fluid}',then: 'container-fluid', else: 'container')} otc">
+				<div class="row">	
+					<f:cObject typoscriptObjectPath="lib.content.top" />
+				</div>
+			</div>
+		</f:if>
+	</f:if>
+	<f:if condition="{be_layout}">
+	<f:then>
+		<f:if condition="{be_layout} == 't3sbootstrap__1'">
+			<f:render partial="BE-Layouts/1col" arguments="{_all}" />
+		</f:if>
+		<f:if condition="{be_layout} == 't3sbootstrap__2'">
+			<f:render partial="BE-Layouts/2col-9-3" arguments="{_all}" />
+		</f:if>
+		<f:if condition="{be_layout} == 't3sbootstrap__3'">
+			<f:render partial="BE-Layouts/3col" arguments="{_all}" />
+		</f:if>
+		<f:if condition="{be_layout} == 't3sbootstrap__4'">
+			<f:render partial="BE-Layouts/Special-slider" arguments="{_all}" />
+		</f:if>
+		<f:if condition="{be_layout} == 't3sbootstrap__5'">
+			<f:render partial="BE-Layouts/2col-3-9" arguments="{_all}" />
+		</f:if>
+		<f:if condition="{be_layout} == 't3sbootstrap__6'">
+			<f:render partial="BE-Layouts/1col-jumbotron" arguments="{_all}" />
+		</f:if>
+		<f:if condition="{be_layout} == 't3sbootstrap__7'">
+			<f:render partial="BE-Layouts/2col-9-3-jumbotron" arguments="{_all}" />
+		</f:if>
+		<f:if condition="{be_layout} == 't3sbootstrap__8'">
+			<f:render partial="BE-Layouts/3col-jumbotron" arguments="{_all}" />
+		</f:if>
+		<f:if condition="{be_layout} == 't3sbootstrap__9'">
+			<f:render partial="BE-Layouts/2col-3-9-jumbotron" arguments="{_all}" />
+		</f:if>
+		<f:if condition="{be_layout} == 't3sbootstrap__10'">
+			<f:render partial="BE-Layouts/Grayscale" arguments="{_all}" />
+		</f:if>
+
+		<f:if condition="{be_layout} == 1">
+			<f:render partial="BE-Layouts/Template-1" arguments="{_all}" />
+		</f:if>
+		<f:if condition="{be_layout} == 2">
+			<f:render partial="BE-Layouts/Template-2" arguments="{_all}" />
+		</f:if>
+		<f:if condition="{be_layout} == 3">
+			<f:render partial="BE-Layouts/Template-3" arguments="{_all}" />
+		</f:if>
+		<f:if condition="{be_layout} == 4">
+			<f:render partial="BE-Layouts/Template-4" arguments="{_all}" />
+		</f:if>
+		<f:if condition="{be_layout} == 5">
+			<f:render partial="BE-Layouts/Template-5" arguments="{_all}" />
+		</f:if>
+
+	</f:then>
+	<f:else>
+		<f:render partial="BE-Layouts/2col-9-3-jumbotron" arguments="{_all}" />
+	</f:else>
+	</f:if>
+
+	<f:if condition="{settings.optionalContent}">
+		<f:if condition="<f:cObject typoscriptObjectPath='lib.content.bottom' />">
+			<div class="{f:if(condition: '{settings.styles.container-fluid}',then: 'container-fluid', else: 'container')} obc">
+				<div class="row">	
+					<f:cObject typoscriptObjectPath="lib.content.bottom" />
+				</div>
+			</div>
+		</f:if>
+	</f:if>
+	
+</f:section>

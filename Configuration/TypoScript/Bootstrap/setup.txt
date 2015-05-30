@@ -1,0 +1,15 @@
+#-------------------------------------------------------------------------------
+#	Plugin Setup
+#-------------------------------------------------------------------------------
+		
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:t3sbootstrap/Resources/Private/TypoScript/bs-setup.ts">
+
+/*
+page.20 = COA
+page.20 {
+	20 = TEXT
+	20.data = debug:register
+	30 = TEXT
+	30.data = debug:page
+}
+*/

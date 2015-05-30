@@ -1,0 +1,917 @@
+/*!
+ * Bootstrap v3.3.4 (http://getbootstrap.com)
+ * Copyright 2011-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+/*!
+ * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=4b9b8c7bdce8002f85c2)
+ * Config saved to config.json and https://gist.github.com/4b9b8c7bdce8002f85c2
+ */
+
+.t3sbootstrap * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.t3sbootstrap *:before,
+.t3sbootstrap *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.t3sbootstrap .clearfix {
+    display: inline;
+}
+
+.t3sbootstrap input,
+.t3sbootstrap button,
+.t3sbootstrap select,
+.t3sbootstrap textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+.t3sbootstrap a {
+  color: #337ab7;
+  text-decoration: none;
+}
+.t3sbootstrap a:hover,
+.t3sbootstrap a:focus {
+  color: #23527c;
+  text-decoration: underline;
+}
+.t3sbootstrap a:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.t3sbootstrap hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eeeeee;
+}
+.t3sbootstrap [role="button"] {
+  cursor: pointer;
+}
+.t3sbootstrap h1,
+.t3sbootstrap h2,
+.t3sbootstrap h3 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+.t3sbootstrap h1 small,
+.t3sbootstrap h2 small,
+.t3sbootstrap h3 small {
+  font-weight: normal;
+  line-height: 1;
+  color: #777777;
+}
+.t3sbootstrap h1,
+.t3sbootstrap h2,
+.t3sbootstrap h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.t3sbootstrap h1 small,
+.t3sbootstrap h2 small,
+.t3sbootstrap h3 small {
+  font-size: 65%;
+}
+
+.t3sbootstrap h1 {
+  font-size: 36px;
+}
+.t3sbootstrap h2 {
+  font-size: 30px;
+}
+.t3sbootstrap h3 {
+  font-size: 24px;
+}
+.t3sbootstrap p {
+  margin: 0 0 10px;
+}
+.t3sbootstrap .lead {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+@media (min-width: 768px) {
+  .t3sbootstrap .lead {
+    font-size: 21px;
+  }
+}
+.t3sbootstrap small,
+.t3sbootstrap .small {
+  font-size: 85%;
+}
+
+.t3sbootstrap .text-muted {
+  color: #777777;
+}
+.t3sbootstrap .text-primary {
+  color: #337ab7;
+}
+.t3sbootstrap a.text-primary:hover {
+  color: #286090;
+}
+.t3sbootstrap .text-success {
+  color: #3c763d;
+}
+.t3sbootstrap a.text-success:hover {
+  color: #2b542c;
+}
+.t3sbootstrap .text-info {
+  color: #31708f;
+}
+.t3sbootstrap a.text-info:hover {
+  color: #245269;
+}
+.t3sbootstrap .text-warning {
+  color: #8a6d3b;
+}
+.t3sbootstrap a.text-warning:hover {
+  color: #66512c;
+}
+.t3sbootstrap .text-danger {
+  color: #a94442;
+}
+.t3sbootstrap a.text-danger:hover {
+  color: #843534;
+}
+.t3sbootstrap .bg-primary {
+  color: #fff;
+  background-color: #337ab7;
+}
+.t3sbootstrap a.bg-primary:hover {
+  background-color: #286090;
+}
+.t3sbootstrap .bg-success {
+  background-color: #dff0d8;
+}
+.t3sbootstrap a.bg-success:hover {
+  background-color: #c1e2b3;
+}
+.t3sbootstrap .bg-info {
+  background-color: #d9edf7;
+}
+.t3sbootstrap a.bg-info:hover {
+  background-color: #afd9ee;
+}
+.t3sbootstrap .bg-warning {
+  background-color: #fcf8e3;
+}
+.t3sbootstrap a.bg-warning:hover {
+  background-color: #f7ecb5;
+}
+.t3sbootstrap .bg-danger {
+  background-color: #f2dede;
+}
+.t3sbootstrap a.bg-danger:hover {
+  background-color: #e4b9b9;
+}
+.t3sbootstrap .page-header {
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid #eeeeee;
+}
+.t3sbootstrap code,
+.t3sbootstrap pre {
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+.t3sbootstrap code {
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #c7254e;
+  background-color: #f9f2f4;
+  border-radius: 4px;
+}
+.t3sbootstrap pre {
+  display: block;
+  padding: 9.5px;
+  margin: 0 0 10px;
+  font-size: 13px;
+  line-height: 1.42857143;
+  word-break: break-all;
+  word-wrap: break-word;
+  color: #333333;
+  background-color: #f5f5f5;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+.t3sbootstrap pre code {
+  padding: 0;
+  font-size: inherit;
+  color: inherit;
+  white-space: pre-wrap;
+  background-color: transparent;
+  border-radius: 0;
+}
+.t3sbootstrap .pre-scrollable {
+  max-height: 340px;
+  overflow-y: scroll;
+}
+
+.t3sbootstrap .row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.t3sbootstrap .col-xs-4 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.t3sbootstrap .col-xs-4 {
+  float: left;
+}
+.t3sbootstrap .col-xs-4 {
+  width: 33.33333333%;
+}
+
+.t3sbootstrap fieldset {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  min-width: 0;
+}
+.t3sbootstrap label {
+  display: inline-block;
+  max-width: 100%;
+  margin: 8px 0 5px 0;
+  font-weight: bold;
+}
+.t3sbootstrap input[type="search"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.t3sbootstrap input[type="radio"],
+.t3sbootstrap input[type="checkbox"] {
+  margin: 4px 0 0;
+  margin-top: 1px \9;
+  line-height: normal;
+}
+.t3sbootstrap input[type="file"] {
+  display: block;
+}
+.t3sbootstrap input[type="range"] {
+  display: block;
+  width: 100%;
+}
+.t3sbootstrap select[multiple],
+.t3sbootstrap select[size] {
+  height: auto;
+}
+.t3sbootstrap input[type="file"]:focus,
+.t3sbootstrap input[type="radio"]:focus,
+.t3sbootstrap input[type="checkbox"]:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.t3sbootstrap .form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555555;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.t3sbootstrap .form-control:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+
+.t3sbootstrap .form-group {
+  margin-bottom: 15px;
+}
+.t3sbootstrap .radio,
+.t3sbootstrap .checkbox {
+  position: relative;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.t3sbootstrap .radio label,
+.t3sbootstrap .checkbox label {
+  min-height: 20px;
+  padding-left: 20px;
+  margin-bottom: 0;
+  font-weight: normal;
+  cursor: pointer;
+}
+.t3sbootstrap .radio input[type="radio"],
+.t3sbootstrap .radio-inline input[type="radio"],
+.t3sbootstrap .checkbox input[type="checkbox"],
+.t3sbootstrap .checkbox-inline input[type="checkbox"] {
+  position: absolute;
+  margin-left: -20px;
+  margin-top: 4px \9;
+}
+.t3sbootstrap .radio + .radio,
+.t3sbootstrap .checkbox + .checkbox {
+  margin-top: -5px;
+}
+.t3sbootstrap .radio-inline,
+.t3sbootstrap .checkbox-inline {
+  position: relative;
+  display: inline-block;
+  padding-left: 20px;
+  margin-bottom: 0;
+  vertical-align: middle;
+  font-weight: normal;
+  cursor: pointer;
+}
+.t3sbootstrap .radio-inline + .radio-inline,
+.t3sbootstrap .checkbox-inline + .checkbox-inline {
+  margin-top: 0;
+  margin-left: 10px;
+}
+.t3sbootstrap input[type="radio"][disabled],
+.t3sbootstrap input[type="checkbox"][disabled],
+.t3sbootstrap input[type="radio"].disabled,
+.t3sbootstrap input[type="checkbox"].disabled,
+.t3sbootstrap fieldset[disabled] input[type="radio"],
+.t3sbootstrap fieldset[disabled] input[type="checkbox"] {
+  cursor: not-allowed;
+}
+.t3sbootstrap .radio-inline.disabled,
+.t3sbootstrap .checkbox-inline.disabled,
+.t3sbootstrap fieldset[disabled] .radio-inline,
+.t3sbootstrap fieldset[disabled] .checkbox-inline {
+  cursor: not-allowed;
+}
+.t3sbootstrap .radio.disabled label,
+.t3sbootstrap .checkbox.disabled label,
+.t3sbootstrap fieldset[disabled] .radio label,
+.t3sbootstrap fieldset[disabled] .checkbox label {
+  cursor: not-allowed;
+}
+
+.t3sbootstrap .btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.t3sbootstrap .btn:focus,
+.t3sbootstrap .btn:active:focus,
+.t3sbootstrap .btn.active:focus,
+.t3sbootstrap .btn.focus,
+.t3sbootstrap .btn:active.focus,
+.t3sbootstrap .btn.active.focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.t3sbootstrap .btn:hover,
+.t3sbootstrap .btn:focus,
+.t3sbootstrap .btn.focus {
+  color: #333333;
+  text-decoration: none;
+}
+.t3sbootstrap .btn:active,
+.t3sbootstrap .btn.active {
+  outline: 0;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.t3sbootstrap .btn.disabled,
+.t3sbootstrap .btn[disabled],
+.t3sbootstrap fieldset[disabled] .btn {
+  cursor: not-allowed;
+  pointer-events: none;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.t3sbootstrap .btn-default {
+  color: #333333;
+  background-color: #ffffff;
+  border-color: #cccccc;
+}
+.t3sbootstrap .btn-default:hover,
+.t3sbootstrap .btn-default:focus,
+.t3sbootstrap .btn-default.focus,
+.t3sbootstrap .btn-default:active,
+.t3sbootstrap .btn-default.active,
+.t3sbootstrap .open > .dropdown-toggle.btn-default {
+  color: #333333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+.t3sbootstrap .btn-default:active,
+.t3sbootstrap .btn-default.active,
+.t3sbootstrap .open > .dropdown-toggle.btn-default {
+  background-image: none;
+}
+.t3sbootstrap .btn-default.disabled,
+.t3sbootstrap .btn-default[disabled],
+.t3sbootstrap fieldset[disabled] .btn-default,
+.t3sbootstrap .btn-default.disabled:hover,
+.t3sbootstrap .btn-default[disabled]:hover,
+.t3sbootstrap fieldset[disabled] .btn-default:hover,
+.t3sbootstrap .btn-default.disabled:focus,
+.t3sbootstrap .btn-default[disabled]:focus,
+.t3sbootstrap fieldset[disabled] .btn-default:focus,
+.t3sbootstrap .btn-default.disabled.focus,
+.t3sbootstrap .btn-default[disabled].focus,
+.t3sbootstrap fieldset[disabled] .btn-default.focus,
+.t3sbootstrap .btn-default.disabled:active,
+.t3sbootstrap .btn-default[disabled]:active,
+.t3sbootstrap fieldset[disabled] .btn-default:active,
+.t3sbootstrap .btn-default.disabled.active,
+.t3sbootstrap .btn-default[disabled].active,
+.t3sbootstrap fieldset[disabled] .btn-default.active {
+  background-color: #ffffff;
+  border-color: #cccccc;
+}
+.t3sbootstrap .btn-default .badge {
+  color: #ffffff;
+  background-color: #333333;
+}
+.t3sbootstrap .btn-primary {
+  color: #ffffff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+.t3sbootstrap .btn-primary:hover,
+.t3sbootstrap .btn-primary:focus,
+.t3sbootstrap .btn-primary.focus,
+.t3sbootstrap .btn-primary:active,
+.t3sbootstrap .btn-primary.active,
+.t3sbootstrap .open > .dropdown-toggle.btn-primary {
+  color: #ffffff;
+  background-color: #286090;
+  border-color: #204d74;
+}
+.t3sbootstrap .btn-primary:active,
+.t3sbootstrap .btn-primary.active,
+.t3sbootstrap .open > .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+.t3sbootstrap .btn-primary.disabled,
+.t3sbootstrap .btn-primary[disabled],
+.t3sbootstrap fieldset[disabled] .btn-primary,
+.t3sbootstrap .btn-primary.disabled:hover,
+.t3sbootstrap .btn-primary[disabled]:hover,
+.t3sbootstrap fieldset[disabled] .btn-primary:hover,
+.t3sbootstrap .btn-primary.disabled:focus,
+.t3sbootstrap .btn-primary[disabled]:focus,
+.t3sbootstrap fieldset[disabled] .btn-primary:focus,
+.t3sbootstrap .btn-primary.disabled.focus,
+.t3sbootstrap .btn-primary[disabled].focus,
+.t3sbootstrap fieldset[disabled] .btn-primary.focus,
+.t3sbootstrap .btn-primary.disabled:active,
+.t3sbootstrap .btn-primary[disabled]:active,
+.t3sbootstrap fieldset[disabled] .btn-primary:active,
+.t3sbootstrap .btn-primary.disabled.active,
+.t3sbootstrap .btn-primary[disabled].active,
+.t3sbootstrap fieldset[disabled] .btn-primary.active {
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+.t3sbootstrap .btn-primary .badge {
+  color: #337ab7;
+  background-color: #ffffff;
+}
+.t3sbootstrap .btn-success {
+  color: #ffffff !important;
+  background-color: #5cb85c !important;
+  border-color: #4cae4c !important;
+}
+.t3sbootstrap .btn-success:focus,
+.t3sbootstrap .btn-success.focus,
+.t3sbootstrap .btn-success:active,
+.t3sbootstrap .btn-success.active,
+.t3sbootstrap .open > .dropdown-toggle.btn-success {
+  color: #ffffff;
+  background-color: #449d44 !important;
+  border-color: #398439 !important;
+}
+.t3sbootstrap .btn-success:active,
+.t3sbootstrap .btn-success.active,
+.t3sbootstrap .open > .dropdown-toggle.btn-success {
+  background-image: none;
+}
+.t3sbootstrap .btn-success.disabled,
+.t3sbootstrap .btn-success[disabled],
+.t3sbootstrap fieldset[disabled] .btn-success,
+.t3sbootstrap .btn-success.disabled:hover,
+.t3sbootstrap .btn-success[disabled]:hover,
+.t3sbootstrap fieldset[disabled] .btn-success:hover,
+.t3sbootstrap .btn-success.disabled:focus,
+.t3sbootstrap .btn-success[disabled]:focus,
+.t3sbootstrap fieldset[disabled] .btn-success:focus,
+.t3sbootstrap .btn-success.disabled.focus,
+.t3sbootstrap .btn-success[disabled].focus,
+.t3sbootstrap fieldset[disabled] .btn-success.focus,
+.t3sbootstrap .btn-success.disabled:active,
+.t3sbootstrap .btn-success[disabled]:active,
+.t3sbootstrap fieldset[disabled] .btn-success:active,
+.t3sbootstrap .btn-success.disabled.active,
+.t3sbootstrap .btn-success[disabled].active,
+.t3sbootstrap fieldset[disabled] .btn-success.active {
+  background-color: #5cb85c !important;
+  border-color: #4cae4c !important;
+}
+.t3sbootstrap .btn-success .badge {
+  color: #5cb85c;
+  background-color: #ffffff;
+}
+.t3sbootstrap .btn-info {
+  color: #ffffff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+.t3sbootstrap .btn-info:hover,
+.t3sbootstrap .btn-info:focus,
+.t3sbootstrap .btn-info.focus,
+.t3sbootstrap .btn-info:active,
+.t3sbootstrap .btn-info.active,
+.t3sbootstrap .open > .dropdown-toggle.btn-info {
+  color: #ffffff;
+  background-color: #31b0d5;
+  border-color: #269abc;
+}
+.t3sbootstrap .btn-info:active,
+.t3sbootstrap .btn-info.active,
+.t3sbootstrap .open > .dropdown-toggle.btn-info {
+  background-image: none;
+}
+.t3sbootstrap .btn-info.disabled,
+.t3sbootstrap .btn-info[disabled],
+.t3sbootstrap fieldset[disabled] .btn-info,
+.t3sbootstrap .btn-info.disabled:hover,
+.t3sbootstrap .btn-info[disabled]:hover,
+.t3sbootstrap fieldset[disabled] .btn-info:hover,
+.t3sbootstrap .btn-info.disabled:focus,
+.t3sbootstrap .btn-info[disabled]:focus,
+.t3sbootstrap fieldset[disabled] .btn-info:focus,
+.t3sbootstrap .btn-info.disabled.focus,
+.t3sbootstrap .btn-info[disabled].focus,
+.t3sbootstrap fieldset[disabled] .btn-info.focus,
+.t3sbootstrap .btn-info.disabled:active,
+.t3sbootstrap .btn-info[disabled]:active,
+.t3sbootstrap fieldset[disabled] .btn-info:active,
+.t3sbootstrap .btn-info.disabled.active,
+.t3sbootstrap .btn-info[disabled].active,
+.t3sbootstrap fieldset[disabled] .btn-info.active {
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+.t3sbootstrap .btn-info .badge {
+  color: #5bc0de;
+  background-color: #ffffff;
+}
+.t3sbootstrap .btn-warning {
+  color: #ffffff;
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+.t3sbootstrap .btn-warning:hover,
+.t3sbootstrap .btn-warning:focus,
+.t3sbootstrap .btn-warning.focus,
+.t3sbootstrap .btn-warning:active,
+.t3sbootstrap .btn-warning.active,
+.t3sbootstrap .open > .dropdown-toggle.btn-warning {
+  color: #ffffff;
+  background-color: #ec971f;
+  border-color: #d58512;
+}
+.t3sbootstrap .btn-warning:active,
+.t3sbootstrap .btn-warning.active,
+.t3sbootstrap .open > .dropdown-toggle.btn-warning {
+  background-image: none;
+}
+.t3sbootstrap .btn-warning.disabled,
+.t3sbootstrap .btn-warning[disabled],
+.t3sbootstrap fieldset[disabled] .btn-warning,
+.t3sbootstrap .btn-warning.disabled:hover,
+.t3sbootstrap .btn-warning[disabled]:hover,
+.t3sbootstrap fieldset[disabled] .btn-warning:hover,
+.t3sbootstrap .btn-warning.disabled:focus,
+.t3sbootstrap .btn-warning[disabled]:focus,
+.t3sbootstrap fieldset[disabled] .btn-warning:focus,
+.t3sbootstrap .btn-warning.disabled.focus,
+.t3sbootstrap .btn-warning[disabled].focus,
+.t3sbootstrap fieldset[disabled] .btn-warning.focus,
+.t3sbootstrap .btn-warning.disabled:active,
+.t3sbootstrap .btn-warning[disabled]:active,
+.t3sbootstrap fieldset[disabled] .btn-warning:active,
+.t3sbootstrap .btn-warning.disabled.active,
+.t3sbootstrap .btn-warning[disabled].active,
+.t3sbootstrap fieldset[disabled] .btn-warning.active {
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+.t3sbootstrap .btn-warning .badge {
+  color: #f0ad4e;
+  background-color: #ffffff;
+}
+.t3sbootstrap .btn-danger {
+  color: #ffffff;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+.t3sbootstrap .btn-danger:hover,
+.t3sbootstrap .btn-danger:focus,
+.t3sbootstrap .btn-danger.focus,
+.t3sbootstrap .btn-danger:active,
+.t3sbootstrap .btn-danger.active,
+.t3sbootstrap .open > .dropdown-toggle.btn-danger {
+  color: #ffffff;
+  background-color: #c9302c;
+  border-color: #ac2925;
+}
+.t3sbootstrap .btn-danger:active,
+.t3sbootstrap .btn-danger.active,
+.t3sbootstrap .open > .dropdown-toggle.btn-danger {
+  background-image: none;
+}
+.t3sbootstrap .btn-danger.disabled,
+.t3sbootstrap .btn-danger[disabled],
+.t3sbootstrap fieldset[disabled] .btn-danger,
+.t3sbootstrap .btn-danger.disabled:hover,
+.t3sbootstrap .btn-danger[disabled]:hover,
+.t3sbootstrap fieldset[disabled] .btn-danger:hover,
+.t3sbootstrap .btn-danger.disabled:focus,
+.t3sbootstrap .btn-danger[disabled]:focus,
+.t3sbootstrap fieldset[disabled] .btn-danger:focus,
+.t3sbootstrap .btn-danger.disabled.focus,
+.t3sbootstrap .btn-danger[disabled].focus,
+.t3sbootstrap fieldset[disabled] .btn-danger.focus,
+.t3sbootstrap .btn-danger.disabled:active,
+.t3sbootstrap .btn-danger[disabled]:active,
+.t3sbootstrap fieldset[disabled] .btn-danger:active,
+.t3sbootstrap .btn-danger.disabled.active,
+.t3sbootstrap .btn-danger[disabled].active,
+.t3sbootstrap fieldset[disabled] .btn-danger.active {
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+.t3sbootstrap .btn-danger .badge {
+  color: #d9534f;
+  background-color: #ffffff;
+}
+
+.t3sbootstrap .label {
+  display: inline;
+  padding: .2em .6em .3em;
+  font-size: 75%;
+  font-weight: bold;
+  line-height: 1;
+  color: #ffffff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em;
+}
+.t3sbootstrap a.label:hover,
+.t3sbootstrap a.label:focus {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.t3sbootstrap .label:empty {
+  display: none;
+}
+.t3sbootstrap .btn .label {
+  position: relative;
+  top: -1px;
+}
+.t3sbootstrap .label-default {
+  background-color: #777777;
+}
+.t3sbootstrap .label-default[href]:hover,
+.t3sbootstrap .label-default[href]:focus {
+  background-color: #5e5e5e;
+}
+.t3sbootstrap .label-primary {
+  background-color: #337ab7;
+}
+.t3sbootstrap .label-primary[href]:hover,
+.t3sbootstrap .label-primary[href]:focus {
+  background-color: #286090;
+}
+.t3sbootstrap .label-success {
+  background-color: #5cb85c;
+}
+.t3sbootstrap .label-success[href]:hover,
+.t3sbootstrap .label-success[href]:focus {
+  background-color: #449d44;
+}
+.t3sbootstrap .label-info {
+  background-color: #5bc0de;
+}
+.t3sbootstrap .label-info[href]:hover,
+.t3sbootstrap .label-info[href]:focus {
+  background-color: #31b0d5;
+}
+.t3sbootstrap .label-warning {
+  background-color: #f0ad4e;
+}
+.t3sbootstrap .label-warning[href]:hover,
+.t3sbootstrap .label-warning[href]:focus {
+  background-color: #ec971f;
+}
+.t3sbootstrap .label-danger {
+  background-color: #d9534f;
+}
+.t3sbootstrap .label-danger[href]:hover,
+.t3sbootstrap .label-danger[href]:focus {
+  background-color: #c9302c;
+}
+.t3sbootstrap .alert {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.t3sbootstrap .alert h4 {
+  margin-top: 0;
+  color: inherit;
+}
+.t3sbootstrap .alert .alert-link {
+  font-weight: bold;
+}
+.t3sbootstrap .alert > p,
+.t3sbootstrap .alert > ul {
+  margin-bottom: 0;
+}
+.t3sbootstrap .alert > p + p {
+  margin-top: 5px;
+}
+.t3sbootstrap .alert-dismissable,
+.t3sbootstrap .alert-dismissible {
+  padding-right: 35px;
+}
+.t3sbootstrap .alert-dismissable .close,
+.t3sbootstrap .alert-dismissible .close {
+  position: relative;
+  top: -2px;
+  right: -21px;
+  color: inherit;
+}
+.t3sbootstrap .alert-success {
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #3c763d;
+}
+.t3sbootstrap .alert-success hr {
+  border-top-color: #c9e2b3;
+}
+.t3sbootstrap .alert-success .alert-link {
+  color: #2b542c;
+}
+.t3sbootstrap .alert-info {
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+  color: #31708f;
+}
+.t3sbootstrap .alert-info hr {
+  border-top-color: #a6e1ec;
+}
+.t3sbootstrap .alert-info .alert-link {
+  color: #245269;
+}
+.t3sbootstrap .alert-warning {
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+  color: #8a6d3b;
+}
+.t3sbootstrap .alert-warning hr {
+  border-top-color: #f7e1b5;
+}
+.t3sbootstrap .alert-warning .alert-link {
+  color: #66512c;
+}
+.t3sbootstrap .alert-danger {
+  background-color: #f2dede;
+  border-color: #ebccd1;
+  color: #a94442;
+}
+.t3sbootstrap .alert-danger hr {
+  border-top-color: #e4b9c0;
+}
+.t3sbootstrap .alert-danger .alert-link {
+  color: #843534;
+}
+.t3sbootstrap .clearfix:before,
+.t3sbootstrap .clearfix:after,
+.t3sbootstrap .row:before,
+.t3sbootstrap .row:after,
+.t3sbootstrap .form-horizontal .form-group:before,
+.t3sbootstrap .form-horizontal .form-group:after {
+  content: " ";
+  display: table;
+}
+.t3sbootstrap .clearfix:after,
+.t3sbootstrap .row:after,
+.t3sbootstrap .form-horizontal .form-group:after {
+  clear: both;
+}
+.t3sbootstrap .center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.t3sbootstrap .pull-right {
+  float: right !important;
+}
+.t3sbootstrap .pull-left {
+  float: left !important;
+}
+.t3sbootstrap .hide {
+  display: none !important;
+}
+.t3sbootstrap .show {
+  display: block !important;
+}
+.t3sbootstrap .invisible {
+  visibility: hidden;
+}
+.t3sbootstrap .hidden {
+  display: none !important;
+}
+@-ms-viewport {
+  width: device-width;
+}
+
+
+.t3sbootstrap .bs-docs-section input[type="text"] {
+    background-color: #fafafa;
+    font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+}
+.t3sbootstrap .bs-customize-download .btn-outline {
+    padding: 20px;
+    font-size: 18px;
+    line-height: 1.33333;
+}
+.t3sbootstrap .btn-outline {
+    background-color: rgba(0, 0, 0, 0) !important;
+    border-color: #563d7c !important;
+    color: #563d7c !important;
+}
+.t3sbootstrap .btn-outline:active, .t3sbootstrap .btn-outline:focus, .t3sbootstrap .btn-outline:hover {
+    background-color: #563d7c !important;
+    border-color: #563d7c !important;
+    color: #ffffff !important;
+}
+.t3sbootstrap option {
+	padding:8px;
+}
+.t3sbootstrap .bs-customizer h2 {
+    margin-bottom: 5px;
+    margin-top: 0;
+    padding-top: 30px;
+}
+
+.t3sbootstrap .btn-block {
+  display: block;
+  width: 100%;
+}
+.t3sbootstrap .btn-block + .btn-block {
+  margin-top: 5px;
+}
+.t3sbootstrap input[type="submit"].btn-block,
+.t3sbootstrap input[type="reset"].btn-block,
+.t3sbootstrap input[type="button"].btn-block {
+  width: 100%;
+}

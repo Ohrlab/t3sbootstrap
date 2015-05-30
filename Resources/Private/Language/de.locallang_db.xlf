@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2014-01-08T20:03:08Z" product-name="t3sbootstrap">
+		<header/>
+		<body>
+
+			<trans-unit id="pages.tx_t3sbootstrap_glyphicon">
+				<target>Bootstrap Glyphicon:</target>
+			</trans-unit>
+			<trans-unit id="pages.tx_t3sbootstrap_no_glyphicon">
+				<target>Kein Glyphicon</target>
+			</trans-unit>
+
+			<trans-unit id="tt_content.tx_t3sbootstrap_panel_state">
+				<target>Panel-Kontext Alternativen:</target>
+			</trans-unit>
+
+			<trans-unit id="tt_content.tx_t3sbootstrap_media_position">
+				<target>Bildposition:</target>
+			</trans-unit>
+			<trans-unit id="tt_content.tx_t3sbootstrap_media_position_left">
+				<target>Links</target>
+			</trans-unit>
+			<trans-unit id="tt_content.tx_t3sbootstrap_media_position_right">
+				<target>Rechts</target>
+			</trans-unit>
+
+			<trans-unit id="tt_content.tx_t3sbootstrap_media_alignment">
+				<target>Bildausrichtung:</target>
+			</trans-unit>
+			<trans-unit id="tt_content.tx_t3sbootstrap_media_alignment_top">
+				<target>Bild oben ausgerichtet</target>
+			</trans-unit>
+			<trans-unit id="tt_content.tx_t3sbootstrap_media_alignment_middle">
+				<target>Bild mittig ausgerichtet</target>
+			</trans-unit>
+			<trans-unit id="tt_content.tx_t3sbootstrap_media_alignment_bottom">
+				<target>Bild unten ausgerichtet</target>
+			</trans-unit>
+
+			<trans-unit id="tt_content.tx_t3sbootstrap_content_slide">
+				<target>Content slide (oben in der Spalte)</target>
+			</trans-unit>
+
+			<trans-unit id="tt_content.tx_t3sbootstrap_image_style">
+				<target>Bootstrap Bild Stil</target>
+			</trans-unit>
+
+			<trans-unit id="pages.tx_t3sbootstrap_fontawesome_icon">
+				<target>Fontawesome Icon (z.B. fa-cog)</target>
+			</trans-unit>
+			<trans-unit id="pages.tx_t3sbootstrap_linkToTop">
+				<target>Link zum Seitenanfang anfügen</target>
+			</trans-unit>
+
+		</body>
+	</file>
+
+
+</xliff>

@@ -1,0 +1,93 @@
+{namespace t3sbs=T3SBS\T3sbootstrap\ViewHelpers}
+
+
+<f:for each="<t3sbs:chunk input='{data.tx_gridelements_view_children}' size='{data.flexform_columns}' />" as="thumbnailrow" iteration="tr">
+	<f:if condition="{data.flexform_equalHeight}">
+		<t3sbs:InlineJs inlineJS="var highestBox = 0;jQuery('.tr{data.uid}-{tr.cycle} .thumbnail').
+		each(function(){if(jQuery(this).height()>highestBox){highestBox = $(this).height();}});jQuery('.tr{data.uid}-{tr.cycle} .thumbnail')
+		.height(highestBox);" currentRow="{tr.cycle}" />
+	</f:if>
+	<div class="row tr{data.uid}-{tr.cycle}">
+		<f:for each="{thumbnailrow}" as="thumbnail">
+			<div class="col-sm-6 col-md-{data.flexform_columns}">
+			<f:if condition="{thumbnail.image_zoom}">
+			<f:else>
+				<div class="thumbnail">
+			</f:else>
+			</f:if>
+			<t3sbs:fal uid="{thumbnail.uid}" as="images">
+				<f:if condition="{images}">
+					<f:if condition="{thumbnail.image_zoom}">
+						<f:then>
+							<a class="thumbnail gallery" href="{f:uri.image(src:images.0.publicUrl)}">
+								<f:render section="Image" arguments="{_all}" />
+							</a>
+						</f:then>
+						<f:else>
+								<f:render section="Image" arguments="{_all}" />
+						</f:else>
+					</f:if>
+				</f:if>
+			</t3sbs:fal>
+			<f:if condition="{thumbnail.bodytext}">
+				<f:then>
+					<div class="caption">
+						<f:if condition="{thumbnail.header}">
+							<f:render section="Header" arguments="{_all}" />
+						</f:if>
+						<f:format.html>{thumbnail.bodytext}</f:format.html>
+						<f:if condition="{thumbnail.header_link}">
+							<p><f:link.page pageUid="{thumbnail.header_link}" class="btn btn-primary" noCacheHash="1" >
+							{f:translate(key: 'LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang.xml:moreButton')}</f:link.page></p>
+						</f:if>
+					</div>
+				</f:then>
+				<f:else>
+					<f:if condition="{thumbnail.header}">
+						<div class="caption">
+							<f:render section="Header" arguments="{_all}" />
+							<f:if condition="{thumbnail.header_link}">
+								<p><f:link.page pageUid="{thumbnail.header_link}" class="btn btn-primary" noCacheHash="1" >
+								{f:translate(key: 'LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang.xml:moreButton')}</f:link.page></p>
+							</f:if>
+						</div>
+					</f:if>
+				</f:else>
+			</f:if>
+			<f:if condition="{thumbnail.image_zoom}">
+			<f:else>
+				</div>
+			</f:else>
+			</f:if>
+			</div>
+		</f:for>
+	</div>
+</f:for>
+
+
+<f:section name="Header">
+	<f:if condition="{thumbnail.subheader}">
+		<f:then>
+			<h3>{f:if(condition: 'headerIcon', then: '<i class="fa {thumbnail.tx_t3sbootstrap_fontawesome_icon}"></i>')} {thumbnail.header} <small>{thumbnail.subheader}</small></h3>
+		</f:then>
+		<f:else>
+			<h3>{f:if(condition: 'headerIcon', then: '<i class="fa {thumbnail.tx_t3sbootstrap_fontawesome_icon}"></i>')} {thumbnail.header}</h3>
+		</f:else>
+	</f:if>
+</f:section>
+
+
+<f:section name="Image">
+	<f:if condition="{lazyload}">
+		<f:then>
+			<f:image src="EXT:t3sbootstrap/Resources/Public/Images/Placeholder.png" class="img-responsive" title="{images.0.title}"
+			alt="{images.0.alternative}" width="{data.flexform_width}" height="{data.flexform_height}"
+			additionalAttributes="{data-original: '{f:uri.image(src: \'{images.0.uid}\', treatIdAsReference:\'1\', width: \'{data.flexform_width}c-0\',
+			height: \'{data.flexform_height}c-0\')}'}" />
+		</f:then>
+		<f:else>
+			<f:image src="{images.0.uid}" treatIdAsReference="1" class="img-responsive" title="{images.0.title}"
+			alt="{images.0.alternative}" width="{data.flexform_width}c-0" height="{data.flexform_height}c-0" />
+		</f:else>
+	</f:if>
+</f:section>

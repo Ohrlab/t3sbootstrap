@@ -1,0 +1,22 @@
+{namespace t3sbs=T3SBS\T3sbootstrap\ViewHelpers}
+
+<f:if condition="{data.tx_t3sbootstrap_list_group} == 'ordered'">
+	<f:then>
+	    <t3sbs:explode data="{data.bodytext}" as="items">
+	        <ol class="ordered layout-{data.layout}">
+	            <f:for each="{items}" as="item">
+	            <li>{item}</li>
+	            </f:for>
+	        </ol>
+	    </t3sbs:explode>
+	</f:then>
+	<f:else>
+	    <t3sbs:explode data="{data.bodytext}" as="items">
+	        <ul class="{data.tx_t3sbootstrap_list_group} layout-{data.layout}">
+	            <f:for each="{items}" as="item">
+	            <li class="{data.tx_t3sbootstrap_list_group}-item">{item}</li>
+	            </f:for>
+	        </ul>
+	    </t3sbs:explode>
+	</f:else>
+</f:if>

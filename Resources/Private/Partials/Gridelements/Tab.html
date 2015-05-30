@@ -1,0 +1,8 @@
+<ul class="bs-example-tabs nav {data.flexform_display_type}">
+	<f:for each="{data.tx_gridelements_view_children}" as="tab" iteration="i">
+		<li{f:if(condition:'{i.isFirst}',then:' class="active"')}><a href="#tab-content-{tab.uid}" data-toggle="tab">{tab.header}</a></li>
+	</f:for>
+</ul>
+<div class="tab-content">
+	<f:format.raw>{data.tx_gridelements_view_columns.0}</f:format.raw>
+</div>

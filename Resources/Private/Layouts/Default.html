@@ -1,0 +1,17 @@
+<f:if condition="{be_layout} == 't3sbootstrap__10'">
+<f:then>
+	<f:render section="Main" />
+</f:then>
+<f:else>
+	<f:render section="Main" />
+	<f:if condition="{settings.styles.footer.enable}">
+		<f:render partial="Page/Footer" arguments="{_all}" />
+	</f:if>
+	<f:if condition="{data.tx_t3sbootstrap_linkToTop}">
+		<a href="#" class="back-to-top" style="display: none;" 
+			title="{f:translate(key: 'LLL:EXT:t3sbootstrap/Resources/Language/locallang_db.xlf:pages.tx_t3sbootstrap_linkToTop')}">
+			<span class="glyphicon glyphicon-chevron-up"></span>
+		</a>
+	</f:if>	
+</f:else>
+</f:if>

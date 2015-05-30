@@ -1,0 +1,99 @@
+{namespace t3sbs=T3SBS\T3sbootstrap\ViewHelpers}
+<div id="carousel-{data.uid}" class="carousel slide" data-ride="carousel" data-interval="{data.flexform_interval}">
+	<f:comment>
+		<!-- Indicators -->
+	</f:comment>
+	<ol class="carousel-indicators">
+		<f:for each="{data.tx_gridelements_view_children}" as="carousel-indicators" iteration="iteration-indicators">
+			<li data-target="#carousel-{data.uid}" data-slide-to="{iteration-indicators.index}" {f:if(condition:'{iteration-indicators.isFirst}',then:' class="active"')}></li>
+		</f:for>
+	</ol>
+	<f:comment>
+		<!-- Wrapper for slides -->
+	</f:comment>
+	<div class="carousel-inner">
+		<f:for each="{data.tx_gridelements_view_children}" as="carousel" iteration="iteration-inner">
+		<div class="item {f:if(condition:'{iteration-inner.isFirst}',then:'active')}">
+			<t3sbs:fal uid="{carousel.uid}" as="images">
+				<f:if condition="{images}">
+					<f:for each="{images}" as="image" iteration="iteration-image">
+						<f:if condition="{iteration-image.isFirst}">
+							<f:if condition="{image.link}">
+								<f:then>
+									<f:link.page pageUid="{image.link}">
+										<f:image src="{image.uid}" treatIdAsReference="1" title="{image.title}" alt="{image.alternative}" width="{data.flexform_width}c-0" height="{data.flexform_height}" />
+									</f:link.page>
+								</f:then>
+								<f:else>
+									<f:image src="{image.uid}" treatIdAsReference="1" title="{image.title}" alt="{image.alternative}" width="{data.flexform_width}c-0" height="{data.flexform_height}" />
+								</f:else>
+							</f:if>
+						</f:if>
+					</f:for>
+				</f:if>
+			</t3sbs:fal>
+			<f:if condition="{carousel.bodytext}">
+				<f:then>
+					<div class="carousel-caption">
+						<f:if condition="{carousel.header}">
+							<f:render section="CarouselHeader" arguments="{_all}" />
+						</f:if>
+						<f:format.html>{carousel.bodytext}</f:format.html>
+					</div>
+				</f:then>
+				<f:else>
+					<f:if condition="{carousel.header}">
+						<div class="carousel-caption">
+							<f:render section="CarouselHeader" arguments="{_all}" />
+						</div>
+					</f:if>
+				</f:else>
+			</f:if>
+		</div>
+		</f:for>
+	</div>
+	<f:comment>
+		<!-- Controls -->
+	</f:comment>
+	<a class="left carousel-control" href="#carousel-{data.uid}" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+	<a class="right carousel-control" href="#carousel-{data.uid}" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+</div>
+
+<f:section name="CarouselHeader">
+	<f:if condition="{carousel.subheader}">
+		<f:then>
+			<f:if condition="{headerIcon}">
+				<f:then>
+					<f:if condition="{carousel.tx_t3sbootstrap_fontawesome_icon}">
+						<f:then>
+							<h3>{f:if(condition: 'headerIcon', then: '<i class="fa {carousel.tx_t3sbootstrap_fontawesome_icon}"></i>')} {carousel.header} <small>{carousel.subheader}</small></h3>
+						</f:then>
+						<f:else>
+							<h3>{carousel.header} <small>{carousel.subheader}</small></h3>
+						</f:else>
+					</f:if>
+				</f:then>
+				<f:else>
+					<h3>{carousel.header} <small>{carousel.subheader}</small></h3>
+				</f:else>
+			</f:if>
+		</f:then>
+		<f:else>
+			<f:if condition="{headerIcon}">
+				<f:then>
+					<f:if condition="{carousel.tx_t3sbootstrap_fontawesome_icon}">
+						<f:then>
+							<h3>{f:if(condition: 'headerIcon', then: '<i class="fa {carousel.tx_t3sbootstrap_fontawesome_icon}"></i>')} {carousel.header}</h3>
+						</f:then>
+						<f:else>
+							<h3>{carousel.header}</h3>
+						</f:else>
+					</f:if>
+				</f:then>
+				<f:else>
+					<h3>{carousel.header}</h3>
+				</f:else>
+			</f:if>
+		</f:else>
+	</f:if>
+</f:section>

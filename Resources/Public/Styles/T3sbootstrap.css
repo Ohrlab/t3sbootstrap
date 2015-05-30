@@ -1,0 +1,425 @@
+/*  TODO Implements SASS Stuff
+----------------------------------*/
+
+
+/* affix */
+
+.affix {
+	margin-top:-140px;
+}
+
+.affixmenu .csc-default {
+  padding-top: 50px;
+  margin-top: -50px;
+  -webkit-background-clip: content-box;
+  background-clip: content-box;
+}
+.bs-affix ul.affix {
+    width: 200px;
+}
+@media (min-width: 1200px) {
+	.bs-affix ul.affix {
+	    width: 260px;
+	}
+}
+.bs-affix .nav-tabs {
+	border-bottom: none;
+}
+.bs-affix ul.nav-tabs li.active a,
+.bs-affix ul.nav-tabs li.active a:hover {
+    color: #fff;
+    background: #0088cc;
+    border: 1px solid #0088cc;
+}
+
+/* languageMenu */
+
+#languageMenu img {
+	vertical-align: baseline;
+}
+
+.navbar-wrapper {
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    z-index: 20;
+}
+.navbar-wrapper .container {
+    padding-left: 0;
+    padding-right: 0;
+}
+.navbar-wrapper .navbar {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbar li a span.glyphicon {
+	margin-right:7px;
+}
+.navbar li a span.glyphicon-print  {
+	margin-right:0;
+}
+.navbar li a b.caret {
+	margin-left:7px;
+}
+.navbar-collapse .navbar-form {
+	border: none;
+	box-shadow: none;
+	margin: 8px -15px 8px -5px;
+}
+
+/* bs-callout */
+
+.bs-callout {
+    border-left: 3px solid #EEEEEE;
+    margin: 20px 0;
+    padding: 20px;
+}
+.bs-callout h4 {
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+.bs-callout p:last-child {
+    margin-bottom: 0;
+}
+.bs-callout-danger {
+    background-color: #FDF7F7;
+    border-color: #EED3D7;
+}
+.bs-callout-danger h4 {
+    color: #B94A48;
+}
+.bs-callout-warning {
+    background-color: #FAF8F0;
+    border-color: #FAEBCC;
+}
+.bs-callout-warning h4 {
+    color: #8A6D3B;
+}
+.bs-callout-info {
+    background-color: #F4F8FA;
+    border-color: #BCE8F1;
+}
+.bs-callout-info h4 {
+    color: #34789A;
+}
+
+/* footer */
+
+footer#page-footer {
+    border-top: 1px solid #E5E5E5;
+    color: #777777;
+    margin-top: 80px;
+    padding-bottom: 30px;
+    padding-top: 40px;
+	text-align: center;
+}
+footer#page-footer {
+    border-radius: 0;
+}
+footer#page-footer a {
+	color: #777;
+}
+footer .fcol2 {
+	padding-top:10px;
+}
+
+/* multi level dropdown */
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+/* Indexed Search */
+
+.tx-indexedsearch-redMarkup {
+	color:red;
+}
+
+/* Example Style for CssStyledContent */
+
+.csc-textpic-caption {
+    font-size: 85%;
+    color: #999999;
+    font-weight: normal;
+    line-height: 1;
+    padding-top:5px;
+}
+.csc-textpic-imagewrap {
+	margin-bottom: 15px;
+}
+
+figcaption.csc-textpic-caption {
+    display: block;
+}
+
+.csc-textpic-intext-left-nowrap .csc-textpic-imagerow,
+.csc-textpic-intext-right-nowrap .csc-textpic-imagerow {
+	margin-top:10px;
+
+}
+@media (max-width: 767px) {
+	div.csc-textpic-intext-right .csc-textpic-imagewrap {float:none;margin:10px 0 0 0;}
+	div.csc-textpic-imagecolumn, td.csc-textpic-imagecolumn .csc-textpic-image {margin: 0 0 10px 0;}
+
+	.nav.nav-pills.nav-stacked {margin-top:10px;}
+
+	.dropdown-submenu > .dropdown-menu {margin-left: 10px;}
+
+	.navsidebar {
+		margin-top:20px;
+	}
+}
+
+/* Example Sidebar */
+
+@media (min-width: 768px) {
+
+	.navsidebar .navbar-collapse {
+		height: auto;
+		border-top: 0;
+		box-shadow: none;
+		max-height: none;
+		padding-left:0;
+		padding-right:0;
+	}
+	.navsidebar .navbar-collapse.collapse {
+		display: block !important;
+		width: auto !important;
+		padding-bottom: 0;
+		overflow: visible !important;
+	}
+	.navsidebar .navbar-collapse.in {
+		overflow-x: visible;
+	}
+	.navsidebar .navbar {
+		max-width:300px;
+		margin-right: 0;
+		margin-left: 0;
+	}
+	.navsidebar .navbar-nav,
+	.navsidebar .navbar-nav > li,
+	.navsidebar .navbar-left,
+	.navsidebar .navbar-right,
+	.navsidebar .navbar-header {
+		float:none !important;
+	}
+
+	.navsidebar .navbar-right .dropdown-menu {
+		left:0;right:auto;
+	}
+	.navsidebar .navbar-collapse .navbar-nav.navbar-right:last-child {
+    	margin-right: 0;
+	}
+}
+
+/* Link to top */
+
+.back-to-top {
+	position: fixed;
+	bottom: 2em;
+	right: 1.5em;
+	text-decoration: none;
+	color: #000;
+	background-color: rgba(235, 235, 235, 0.80);
+	padding: 1em;
+	z-index: 999;
+}
+
+.back-to-top:hover {
+	background-color: rgba(135, 135, 135, 0.50);
+}
+
+@-moz-document url-prefix() {
+  .img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    width: 100%;
+  }
+}
+
+/* Example Sitemap */
+
+.tree, .tree ul {
+    margin:0;
+    padding:0;
+    list-style:none
+}
+.tree ul {
+    margin-left:1em;
+    position:relative
+}
+.tree ul ul {
+    margin-left:.5em
+}
+.tree ul:before {
+    content:"";
+    display:block;
+    width:0;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    border-left:1px solid
+}
+.tree li {
+    margin:0;
+    padding:0 1em;
+    line-height:2em;
+    color:#369;
+    font-weight:700;
+    position:relative
+}
+.tree li i {
+	cursor: pointer;
+}
+.tree ul li:before {
+    content:"";
+    display:block;
+    width:10px;
+    height:0;
+    border-top:1px solid;
+    margin-top:-1px;
+    position:absolute;
+    top:1em;
+    left:0
+}
+.tree ul li:last-child:before {
+    background:#fff;
+    height:auto;
+    top:1em;
+    bottom:0
+}
+.indicator {
+    margin-right:5px;
+}
+.tree li a {
+    text-decoration: none;
+    color:#369;
+}
+.tree li button, .tree li button:active, .tree li button:focus {
+    text-decoration: none;
+    color:#369;
+    border:none;
+    background:transparent;
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    outline: 0;
+}
+
+/* Div. */
+
+.media:first-child {
+    margin-bottom: 15px;
+}
+
+.jumbotron {
+    margin-bottom: 20px;
+    min-height: 200px;
+}
+
+.alert {
+	overflow: auto;
+}
+
+.media-body h1,
+.media-body h2,
+.media-body h3,
+.media-body h4,
+.media-body h5,
+.media-body h6 {
+    margin: 0 0 5px;
+}
+
+img.mediaobject {
+  min-width: 64px;
+
+}
+
+.well p:last-child {
+	margin:0;
+}
+
+ul.bs-example-tabs {
+    margin-bottom: 15px;
+}
+
+h1 small {
+    white-space: normal;
+    display: inline;
+}
+
+#languageMenu a img {
+	margin-right:5px;
+}
+
+
+a.back {
+	margin-top:10px;
+}
+
+.thumbnail .caption h3 {
+	margin-top:0;
+}
+
+.col-md-12 .lead {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+}
+
+p span.indent-1,
+pre span.indent-1 {
+	padding-left:20px;
+}
+p span.indent-2,
+pre span.indent-2 {
+	padding-left:40px;
+}
+p span.indent-3,
+pre span.indent-3 {
+	padding-left:60px;
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-01-05T16:59:16Z" product-name="t3sbootstrap">
+		<header/>
+		<body>
+
+			<trans-unit id="pages.tx_t3sbootstrap_glyphicon">
+				<source>Bootstrap Glyphicon:</source>
+			</trans-unit>
+			<trans-unit id="pages.tx_t3sbootstrap_no_glyphicon">
+				<source>No Glyphicon</source>
+			</trans-unit>
+
+			<trans-unit id="tt_content.tx_t3sbootstrap_panel_state">
+				<source>Panel contextual alternatives:</source>
+			</trans-unit>
+
+			<trans-unit id="tt_content.tx_t3sbootstrap_media_position">
+				<source>Image position:</source>
+			</trans-unit>
+			<trans-unit id="tt_content.tx_t3sbootstrap_media_position_left">
+				<source>Left</source>
+			</trans-unit>
+			<trans-unit id="tt_content.tx_t3sbootstrap_media_position_right">
+				<source>Right</source>
+			</trans-unit>
+
+			<trans-unit id="tt_content.tx_t3sbootstrap_media_alignment">
+				<source>Image alignment:</source>
+			</trans-unit>
+			<trans-unit id="tt_content.tx_t3sbootstrap_media_alignment_top">
+				<source>Top-aligned image</source>
+			</trans-unit>
+			<trans-unit id="tt_content.tx_t3sbootstrap_media_alignment_middle">
+				<source>Middle-aligned image</source>
+			</trans-unit>
+			<trans-unit id="tt_content.tx_t3sbootstrap_media_alignment_bottom">
+				<source>Bottom-aligned image</source>
+			</trans-unit>
+
+			<trans-unit id="tt_content.tx_t3sbootstrap_content_slide">
+				<source>Content slide through the rootline (on top of column)</source>
+			</trans-unit>
+
+			<trans-unit id="tt_content.tx_t3sbootstrap_image_style">
+				<source>Bootstrap image style</source>
+			</trans-unit>
+			<trans-unit id="pages.tx_t3sbootstrap_fontawesome_icon">
+				<source>Fontawesome Icon (e.g. fa-cog)</source>
+			</trans-unit>
+			<trans-unit id="pages.tx_t3sbootstrap_linkToTop">
+				<source>Link to top</source>
+			</trans-unit>
+
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,37 @@
+<f:if condition="{settings.navigation.navbar.right.uidList}">
+	<f:then>
+		<ul class="nav navbar-nav navbar-right">
+			<f:if condition="{settings.navigation.navbar.search.enable}">
+				<f:cObject typoscriptObjectPath="lib.extensions.indexed_search.searchbox" />
+			</f:if>
+			<f:render section="Language" />
+			<f:cObject typoscriptObjectPath="lib.navigation.navbar-right" />
+		</ul>
+	</f:then>
+	<f:else>
+		<f:if condition="{settings.navigation.navbar.search.enable}">
+		<f:then>
+			<ul class="nav navbar-nav navbar-right">
+				<f:cObject typoscriptObjectPath="lib.extensions.indexed_search.searchbox" />
+				<f:render section="Language" />
+			</ul>
+		</f:then>
+		<f:else>
+			<f:if condition="{settings.navigation.navbar_lang.enable}">
+				<f:if condition="{settings.navigation.navbar_lang.languages}">
+					<ul class="nav navbar-nav navbar-right">
+						<f:cObject typoscriptObjectPath="lib.navigation.languageswitch" />
+					</ul>
+				</f:if>
+			</f:if>
+		</f:else>
+		</f:if>
+	</f:else>
+</f:if>
+<f:section name="Language">
+	<f:if condition="{settings.navigation.navbar_lang.enable}">
+		<f:if condition="{settings.navigation.navbar_lang.languages}">
+			<f:cObject typoscriptObjectPath="lib.navigation.languageswitch" />
+		</f:if>
+	</f:if>
+</f:section>

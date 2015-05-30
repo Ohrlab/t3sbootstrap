@@ -1,0 +1,21 @@
+<f:if condition="{settings.styles.navbar.onTop}">
+	<f:if condition="{settings.navigation.navbar.enable}">
+		<f:render partial="NavBar/_main" arguments="{_all}" />
+	</f:if>
+</f:if>
+<div class="{f:if(condition: '{settings.styles.container-fluid}',then: 'container-fluid', else: 'container')} page-container">
+	<f:render partial="Page/PageHeader" arguments="{_all}" />
+	<f:if condition="{settings.styles.navbar.onTop}">
+		<f:else>
+			<f:if condition="{settings.navigation.navbar.enable}">
+				<f:render partial="NavBar/NavBarDefault" arguments="{_all}" />
+			</f:if>
+		</f:else>
+	</f:if>
+	<f:render partial="Page/Breadcrumb" />
+	<div class="row content-row">
+		<section class="col-md-12 main-content">
+			<f:cObject typoscriptObjectPath="lib.content.main" />
+		</section>
+	</div>
+</div>

@@ -1,0 +1,23 @@
+	# cat=basic/enable/10; type=boolean; label=Default CTypes: Enable the default CTypes (Typical Page Content) (Clear all cache).
+default_CTypes = 1
+
+	# cat=basic/enable/15; type=boolean; label=BS-Components in Default CTypes: Enable the Bootstrap-Components in the default CTypes (Typical Page Content) - if "Default CTypes" is enabled (Clear all cache).
+default_BScTypes = 1
+
+	# cat=basic/enable/20; type=boolean; label=Default Flag: Set the default language label and default language flag to german (Clear all cache).
+default_Flag = 1
+
+	# cat=basic/enable/30; type=boolean; label=RTE: RTE configuration for Bootstrap markup and components (Clear all cache).
+rte_config = 1
+
+	# cat=basic/enable/32; type=boolean; label=RTE extended: RTE extended configuration - if rte_config is enabled (Clear all cache).
+rte_extend = 0
+
+	# cat=basic/enable/40; type=boolean; label=Font Awesome icons: instead of glyphicons in the navBar and also as header-icon of any content element (Clear all cache).
+fontawesome = 1
+
+	# cat=basic/enable/50; type=boolean; label=Auto inject TS: The default TypoScript is automatically included if enabled.
+autoTS = 1
+
+	# cat=basic/enable/60; type=boolean; label=Optional Content: you'll have two more (on top and bottom) backend-layout fields (colPos 20 and 21) if enabled.
+optionalContent = 0

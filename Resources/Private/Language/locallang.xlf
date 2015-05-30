@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-01-05T16:59:16Z" product-name="t3bootstrap">
+		<header/>
+		<body>
+
+			<trans-unit id="search-placeholder">
+				<source>search</source>
+			</trans-unit>
+
+			<trans-unit id="moreButton">
+				<source>more</source>
+			</trans-unit>
+
+			<trans-unit id="login">
+				<source>Login</source>
+			</trans-unit>
+
+			<trans-unit id="logout">
+				<source>Logout</source>
+			</trans-unit>
+
+		</body>
+	</file>
+</xliff>

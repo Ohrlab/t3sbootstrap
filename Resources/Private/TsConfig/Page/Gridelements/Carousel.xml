@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3DataStructure>
+  <meta type="array">
+		<langDisable>1</langDisable>
+	</meta>
+	<sheets>
+		<general>
+			<ROOT type="array">
+				<TCEforms>
+					<sheetTitle>LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:flexforms.general</sheetTitle>
+				</TCEforms>
+				<el type="array">
+
+					<width type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:flexforms.maxImgWidth</label>
+							<config>
+								<type>input</type>
+								<size>4</size>
+								<max>4</max>
+								<default>900</default>
+								<eval>int,nospace</eval>
+								<checkbox>0</checkbox>
+							</config>
+						</TCEforms>
+					</width>
+					<height type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:flexforms.maxImgHeight</label>
+							<config>
+								<type>input</type>
+								<size>4</size>
+								<max>4</max>
+								<default>500</default>
+								<eval>int,nospace</eval>
+								<checkbox>0</checkbox>
+							</config>
+						</TCEforms>
+					</height>
+					<interval type="array">
+						<TCEforms type="array">
+							<label>LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:flexforms.interval</label>
+							<config>
+								<type>input</type>
+								<size>5</size>
+								<max>5</max>
+								<default>5000</default>
+								<eval>int,nospace</eval>
+								<checkbox>0</checkbox>
+							</config>
+						</TCEforms>
+					</interval>
+				</el>
+			</ROOT>
+		</general>
+	</sheets>
+</T3DataStructure>

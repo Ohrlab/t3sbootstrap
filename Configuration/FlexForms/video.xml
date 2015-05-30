@@ -1,0 +1,180 @@
+<T3DataStructure>
+	<meta type="array">
+		<langDisable>1</langDisable>
+	</meta>
+	<sheets>
+		<sDEF>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>Video Settings</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
+					<source>
+						<TCEforms>
+							<label>LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:flexform.source</label>
+							<onChange>reload</onChange>
+							<config>
+								<type>select</type>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:flexform.ownsource</numIndex>
+										<numIndex index="1">1</numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">YouTube</numIndex>
+										<numIndex index="1">2</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">Vimeo</numIndex>
+										<numIndex index="1">3</numIndex>
+									</numIndex>
+								</items>
+								<maxitems>1</maxitems>
+								<size>1</size>
+							</config>
+						</TCEforms>
+					</source>
+
+					<previewImage>
+					  <TCEforms>
+						  <displayCond>FIELD:source:=:,1</displayCond>
+					      <label>LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:flexform.previewImage</label>
+					      <config>
+					        <type>group</type>
+					        <internal_type>file_reference</internal_type>
+					        <allowed>gif,jpg,jpeg,tif,tiff,bmp,pcx,tga,png,pdf,ai</allowed>
+					        <size>1</size>
+					      </config>
+					  </TCEforms>
+					</previewImage>
+
+					<mp4>
+					  <TCEforms>
+						  <displayCond>FIELD:source:=:,1</displayCond>
+					      <label>LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:flexform.source.MP4</label>
+					      <config>
+					        <type>group</type>
+					        <internal_type>file_reference</internal_type>
+					        <allowed>mp4</allowed>
+					        <size>1</size>
+					      </config>
+					  </TCEforms>
+					</mp4>
+
+					<webm>
+					  <TCEforms>
+						  <displayCond>FIELD:source:=:,1</displayCond>
+					      <label>LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:flexform.source.WebM</label>
+						  <config>
+						    <type>group</type>
+						    <internal_type>file_reference</internal_type>
+						    <allowed>webm</allowed>
+						    <size>1</size>
+						  </config>
+					  </TCEforms>
+					</webm>
+
+					<ogg>
+					  <TCEforms>
+						  <displayCond>FIELD:source:=:,1</displayCond>
+					      <label>LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:flexform.source.Ogg</label>
+					      <config>
+					        <type>group</type>
+					        <internal_type>file_reference</internal_type>
+					        <allowed>ogg</allowed>
+					        <size>1</size>
+					      </config>
+					  </TCEforms>
+					</ogg>
+
+					<youtube>
+						<TCEforms>
+							<displayCond>FIELD:source:=:2</displayCond>
+						    <label>YouTube Video-ID</label>
+							<config>
+							  <type>input</type>
+							  <checkbox></checkbox>
+							  <eval>trim</eval>
+							  <size>8</size>
+							</config>
+						</TCEforms>
+					</youtube>
+
+					<vimeo>
+						<TCEforms>
+						  <displayCond>FIELD:source:=:3</displayCond>
+						  <label>Vimeo Video-ID</label>
+							<config>
+							  <type>input</type>
+							  <checkbox></checkbox>
+							  <eval>trim</eval>
+							  <size>8</size>
+							</config>
+						</TCEforms>
+					</vimeo>
+
+					<ratio>
+						<TCEforms>
+							<label>LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:flexform.aspectratio</label>
+							<config>
+								<type>select</type>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">16:9</numIndex>
+										<numIndex index="1">16by9</numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">4:3</numIndex>
+										<numIndex index="1">4by3</numIndex>
+									</numIndex>
+								</items>
+								<maxitems>1</maxitems>
+								<size>1</size>
+							</config>
+						</TCEforms>
+					</ratio>
+
+					<centerPlayButton>
+						<TCEforms>
+							<displayCond>FIELD:source:=:2</displayCond>
+							<label>LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:flexform.centerbutton</label>
+							<config>
+								<type>check</type>
+							</config>
+						</TCEforms>
+					</centerPlayButton>
+
+					<autoplay>
+						<TCEforms>
+							<label>LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:flexform.autoplay</label>
+							<config>
+								<type>check</type>
+							</config>
+						</TCEforms>
+					</autoplay>
+
+					<preload>
+						<TCEforms>
+							<label>LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:flexform.preload</label>
+							<config>
+								<type>check</type>
+							</config>
+						</TCEforms>
+					</preload>
+
+					<loop>
+						<TCEforms>
+							<label>LLL:EXT:t3sbootstrap/Resources/Private/Language/locallang_be.xlf:flexform.loop</label>
+							<config>
+								<type>check</type>
+							</config>
+						</TCEforms>
+					</loop>
+
+				</el>
+			</ROOT>
+		</sDEF>
+
+	</sheets>
+</T3DataStructure>

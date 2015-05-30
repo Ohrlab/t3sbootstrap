@@ -1,0 +1,25 @@
+/* set font color to black */
+a,h1 a,h2 a,h3 a,h4 a,h5 a,h1,h2,h3,h4,h5 {font-weight: bold; color:#000;}
+
+/* set URL after links */
+a[href]:after {
+    background-color: inherit;
+    color: #666;
+/* content: " (http://domain.tld/" attr(href) ")"; */
+	content: " ";
+	font-style: italic;
+}
+a.external-link[href]:after, table a.external-link[href]:after,
+a.external-link-new-window[href]:after, table a.external-link-new-window[href]:after {
+ content: " ";
+}
+
+/* no displayed link for E-Mail etc. */
+a.mail[href]:after, table a[href]:after,
+.csc-textpic-imagewrap a[href]:after {
+    content: " ";
+}
+
+/* tables */
+thead {display: table-header-group;}
+tr {page-break-inside: avoid;}
